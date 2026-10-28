@@ -1,0 +1,4 @@
+add project id=two template="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b1228.8_c100um.sonx"
+verify_project
+get num_ports
+save path="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b1228.8_c100um.sonx"

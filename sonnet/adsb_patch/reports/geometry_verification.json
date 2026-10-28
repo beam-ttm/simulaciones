@@ -1,0 +1,132 @@
+{
+  "feed_via": {
+    "uuid": "f8db2f29-31d2-4903-b5e0-230566ceb188",
+    "net": "/1090_RF_IN",
+    "at": [
+      81.41011,
+      85.30994
+    ],
+    "pad_mm": 0.4,
+    "drill_mm": 0.3,
+    "from": "F.Cu",
+    "to": "B.Cu"
+  },
+  "via_counts": {
+    "+3V3": 4,
+    "GND": 83,
+    "/1090_RF_IN": 1
+  },
+  "layer_checks": {
+    "F.Cu": {
+      "kicad_area_mm2": 4463.457764823865,
+      "gerber_area_mm2": 4463.444424144114,
+      "symmetric_difference_mm2": 0.030758868539884375,
+      "difference_outside_2um_mm2": 0.0,
+      "pass_2um": true,
+      "difference_outside_10um_mm2": 0.0,
+      "difference_outside_25um_mm2": 0.0
+    },
+    "In1.Cu": {
+      "kicad_area_mm2": 5817.62483150043,
+      "gerber_area_mm2": 5817.611490820681,
+      "symmetric_difference_mm2": 0.030758868539884375,
+      "difference_outside_2um_mm2": 0.0,
+      "pass_2um": true,
+      "difference_outside_10um_mm2": 0.0,
+      "difference_outside_25um_mm2": 0.0
+    },
+    "In2.Cu": {
+      "kicad_area_mm2": 5781.132071922223,
+      "gerber_area_mm2": 5781.119394954355,
+      "symmetric_difference_mm2": 0.0314270153707167,
+      "difference_outside_2um_mm2": 0.0,
+      "pass_2um": true,
+      "difference_outside_10um_mm2": 0.0,
+      "difference_outside_25um_mm2": 0.0
+    },
+    "B.Cu": {
+      "kicad_area_mm2": 5590.7220506465965,
+      "gerber_area_mm2": 5590.729528944813,
+      "symmetric_difference_mm2": 0.05164835535532396,
+      "difference_outside_2um_mm2": 0.0,
+      "pass_2um": true,
+      "difference_outside_10um_mm2": 0.0,
+      "difference_outside_25um_mm2": 0.0
+    }
+  },
+  "drill_checks": [
+    {
+      "file": "ads-b-NPTH.drl",
+      "hits": 0,
+      "matched_vias": 0,
+      "unmatched_vias": [],
+      "matched_through_hole_pads": 0,
+      "unmatched_pads": []
+    },
+    {
+      "file": "ads-b-PTH.drl",
+      "hits": 5,
+      "matched_vias": 1,
+      "unmatched_vias": [],
+      "matched_through_hole_pads": 4,
+      "unmatched_pads": []
+    },
+    {
+      "file": "ads-b-back-in2.drl",
+      "hits": 87,
+      "matched_vias": 87,
+      "unmatched_vias": [],
+      "matched_through_hole_pads": 0,
+      "unmatched_pads": []
+    }
+  ],
+  "outline_check": {
+    "gerber_centerline_area_mm2": 9281.978342764349,
+    "kicad_area_mm2": 9281.978342764347,
+    "symmetric_difference_mm2": 0.0,
+    "hausdorff_mm": 0.0
+  },
+  "top_patch_to_feed_pad_clearance_mm": 0.25449999999999307,
+  "top_patch_electrically_touches_feed_pad": false,
+  "patch_outline_mm": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          48.81001,
+          33.06003
+        ],
+        [
+          114.66003,
+          33.06002
+        ],
+        [
+          114.66002,
+          98.91003
+        ],
+        [
+          114.01003,
+          99.56003
+        ],
+        [
+          48.16003,
+          99.56002
+        ],
+        [
+          48.16002,
+          33.71003
+        ],
+        [
+          48.81001,
+          33.06003
+        ]
+      ]
+    ]
+  },
+  "board_bounds_mm": [
+    32.40999,
+    17.30999,
+    130.41,
+    115.31
+  ]
+}

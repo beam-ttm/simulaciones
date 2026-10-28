@@ -1,0 +1,24 @@
+{
+  "frequency_Hz": 1090000000,
+  "native_gui_used": true,
+  "field_source": "saved Sonnet EM surface currents",
+  "new_EM_simulation": false,
+  "patterns": [
+    {
+      "type": "2D",
+      "file": "sonnet/patch_campo_lejano_1090_2D.sptx",
+      "image": "sonnet/campo_lejano_1090_2D.png",
+      "angular_samples": 74,
+      "setup": "CTLPG\nTHETA -90.0000 90.00000 5.000000\nPHI 0.000000 90.00000 90.00000\nGHZ\nFREQ 1.09000000\nPORT 1 MAG=1.000000 PHASE=0.000000 R=50.00000 X=0.000000 L=0.000000 C=0.000000\nENDCTL"
+    },
+    {
+      "type": "3D",
+      "file": "sonnet/patch_campo_lejano_1090_3D.sptx",
+      "image": "sonnet/campo_lejano_1090_3D.png",
+      "angular_samples": 2701,
+      "setup": "CTLPG\nTHETA 0.000000 180.0000 5.000000\nPHI -180.000 180.0000 5.000000\nGHZ\nFREQ 1.09000000\nPORT 1 MAG=1.000000 PHASE=0.000000 R=50.00000 X=0.000000 L=0.000000 C=0.000000\nENDCTL"
+    }
+  ],
+  "mesh_converged": false,
+  "real_PCB_validated": false
+}

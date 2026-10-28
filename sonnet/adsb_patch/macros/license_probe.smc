@@ -1,0 +1,3 @@
+add project id=probe template="/home/alan/sonnet19/examples/via/via.sonx"
+save path="/home/alan/Escritorio/CubeSat/simulations/sonnet/adsb_patch/models/license_probe.sonx"
+verify_project

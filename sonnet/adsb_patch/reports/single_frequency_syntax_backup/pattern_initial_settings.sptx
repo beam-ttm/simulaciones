@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graph_file Version="15" Type="GRAPH">
+  <Window ClassName="SPatvuPolarGraphWin" DocID="2241985088032" ShellIndex="2" TabIndex="1" ActiveView="true">
+    <Guts>
+      <graph_info version="15" tab_label="Patch - campo lejano 1090 MHz">
+        <window_specific>
+          <normalization Type="0" NormForm="0" NormValue="0" AbsoluteForm="0" />
+        </window_specific>
+        <terminations>R 50.00000</terminations>
+        <source_files>
+          <source id="0">
+            <file>patch_campo_lejano.sonx</file>
+            <Data Number="1">
+              <PVData Index="0">
+                <PARAM />
+                <Setup>CTLPG
+THETA -90.0000 90.00000 2.000000
+PHI 0.000000 90.00000 90.00000
+GHZ
+FREQ 1.09000000
+PORT 1 MAG=1.000000 PHASE=0.000000 R=50.00000 X=0.000000 L=0.000000 C=0.000000
+ENDCTL</Setup>
+              </PVData>
+            </Data>
+          </source>
+        </source_files>
+        <plot type="SPatvuPolarGraphWin" plotover="4" graph_title="Campo lejano a 1090 MHz - cortes phi=0 y 90">
+          <graph_properties show_grid="1" show_symbols="1" grid_weight="1" axis_weight="1" />
+          <graph_units>
+            <length unit="mm" />
+            <resistance unit="Ohms" />
+            <inductance unit="nH" />
+            <capacitance unit="pF" />
+            <frequency unit="GHz" />
+            <conductivity unit="S/m" />
+            <resistivity unit="Ohm-cm" />
+            <sheet_resistance unit="Ohms/sq" />
+          </graph_units>
+          <axes>
+            <polar_axis min="-40" max="10" autoscale="1" interval="10" tick_labels="1" />
+          </axes>
+          <curves>
+            <curve id="5" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0" />
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1090000000" />
+                <Phi name="Phi" value="0" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="6" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0" />
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1090000000" />
+                <Phi name="Phi" value="90" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#0055cc" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+          </curves>
+          <marker_properties>
+            <data_marker_properties color="#004c97" weight="12" symbol="2" display_annotation="1" />
+            <curve_marker_properties color="#004c97" show_parameters="0" hide_label="0" />
+            <note_marker_properties color="#004c97" />
+            <delta_marker_properties color="#004c97" />
+            <line_marker_properties color="#004c97" weight="2" style="2" display_annotation="1" />
+            <line_segment_marker_properties color="#004c97" weight="2" style="2" symbol="0" symbol_size="12" />
+            <general_properties text_size="10" label_precision="4" />
+          </marker_properties>
+          <markers />
+          <zoom_info valid="0" centerx="0" centery="0" scale="1" />
+        </plot>
+      </graph_info>
+    </Guts>
+  </Window>
+</graph_file>

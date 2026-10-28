@@ -1,0 +1,9 @@
+{
+  "generator_isolated_check": "passed",
+  "field_csv_parser_and_tolerance_checks": "passed against native output",
+  "full_sphere_export_check_samples": 2664,
+  "FR4_gap_mm": 1.6,
+  "copper_model": "THICK_METAL, UP/DOWN into air",
+  "triangular_subsections": false,
+  "large_case_convergence": "pending solver outputs"
+}

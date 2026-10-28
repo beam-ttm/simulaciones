@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonnetProject Version="21" Type="GEO" xmlns="https://www.sonnetsoftware.com/schema/project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/project https://www.sonnetsoftware.com/schema/project/sonnet_project_file-1.0.xsd">
+    <GlobalTemperature Tnom="25.000"/>
+    <Header>
+        <Created Program="example" Version="19.54.2026">
+            <Date>06/29/2011 15:58:05</Date>
+        </Created>
+        <Modified Program="runmacro" Version="19.54.2026">
+            <License>No License</License>
+            <Date>10/19/2026 15:13:21</Date>
+            <Change Importance="MEDIUM">
+                <Date>09/15/2023 08:01:13</Date>
+            </Change>
+            <Change Importance="HIGH">
+                <Date>09/15/2023 08:01:13</Date>
+            </Change>
+        </Modified>
+    </Header>
+    <Units>
+        <Angle>DEG</Angle>
+        <Capacitance>PF</Capacitance>
+        <Conductance>/OH</Conductance>
+        <Conductivity>SM</Conductivity>
+        <Frequency>GHZ</Frequency>
+        <Inductance>NH</Inductance>
+        <Length>mils</Length>
+        <Roughness>UM</Roughness>
+        <Resistance>OH</Resistance>
+        <Resistivity>OHCM</Resistivity>
+        <SheetRes>OHSQ</SheetRes>
+    </Units>
+    <StartupGraphs>
+        <File>../../../../../../sonnet19/examples/via/via.sgrx</File>
+    </StartupGraphs>
+    <Control>
+        <SweepType>VARSWP</SweepType>
+        <DeEmbed On="TRUE"/>
+        <Precision>DOUBLE</Precision>
+        <SpeedControl>MAX_ACCURACY</SpeedControl>
+        <ABSCacheLevel>MULTI_SWEEP</ABSCacheLevel>
+    </Control>
+    <Geometry YDirection="Negative">
+        <Dielectric MacroID="Air" Name="Air" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity Value="0.0"/>
+            <Eps Value="1.0"/>
+            <Tan Value="0.0"/>
+            <MuRel Value="1.0"/>
+            <MagLossTan Value="0.0"/>
+        </Dielectric>
+        <Dielectric MacroID="dielectricB" Name="FR-4" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity Value="0.0"/>
+            <Eps Value="4.4"/>
+            <Tan Value="0.02"/>
+            <MuRel Value="1.0"/>
+            <MagLossTan Value="0.0"/>
+        </Dielectric>
+        <Conductor MacroID="PerfectConductor" Name="Perfect Conductor" Conductivity="INF" LossType="CONDUCTIVITY"/>
+        <Conductor MacroID="conductorB" Name="Copper" Conductivity="5.8e7" LossType="CONDUCTIVITY"/>
+        <Box>
+            <BoxCover MacroID="top_cover" Type="TOP" MaterialType="PERFECT_CONDUCTOR" Roughness="0.0" Thickness="0.0"/>
+            <BoxCover MacroID="bot_cover" Type="BOTTOM" MaterialName="Copper" MaterialType="MATERIAL" Roughness="0.0" Thickness="0.7"/>
+            <Size X="300" Y="300" Z="330"/>
+            <NumCells X="120" Y="120"/>
+            <LocalOrigin X="150" Y="150"/>
+            <Symmetry On="TRUE"/>
+            <RefPlane Type="FIXED" Side="LEFT" RefLength="110"/>
+        </Box>
+        <Level MacroID="diel_layerA" MaterialName="Air" Number="0">
+            <DielectricMaterialModel Thickness="300.0"/>
+            <Objects>
+                <PlanarTechLayer MacroID="planarTLA" Name="Copper" MaterialName="Copper">
+                    <ImportExportMapping DXFName="Copper"/>
+                    <ColorPattern Color="#32cd32" Pattern="dwndiag"/>
+                    <PlanarMaterialModel CurrentRatio="0.5" ModelType="THIN_METAL" Thickness="0.7"/>
+                    <RoughnessModel RoughnessOn="FALSE"/>
+                    <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR"/>
+                    <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y"/>
+                    <GLGMeshing GLG="FALSE"/>
+                    <Objects>
+                        <PlanarPolygon MacroID="polygonA" Id="78">
+                            <Points>(121.6076915,178.3923031) (118.7534884,175) (0,175) (0,125) (118.7534884,125)</Points>
+                            <Points>(121.6076915,121.607678) (126.9693079,117.1087477) (133.0307003,113.6092011) (139.6076964,111.2153703) (146.5004575,109.9999906)</Points>
+                            <Points>(153.4995506,109.9999906) (160.3923117,111.2153703) (166.9693079,113.6092011) (173.0307003,117.1087477) (178.3923166,121.607678)</Points>
+                            <Points>(182.891247,126.9692944) (186.3907935,133.0306868) (188.7846243,139.6076829) (190.0000041,146.500444) (190.0000041,149.9999906)</Points>
+                            <Points>(177.5000041,149.9999906) (177.5000041,147.5940523) (176.6644305,142.855279) (175.0186718,138.3335942) (172.6127336,134.1663869)</Points>
+                            <Points>(169.519719,130.4802757) (165.8336077,127.3872611) (161.6664004,124.9813228) (157.1447156,123.3355641) (152.4059423,122.4999906)</Points>
+                            <Points>(147.5940658,122.4999906) (142.8552926,123.3355641) (138.3336077,124.9813228) (134.1664004,127.3872611) (130.4802892,130.4802757)</Points>
+                            <Points>(127.3872746,134.1663869) (124.9813363,138.3335942) (123.3355777,142.855279) (122.5000041,147.5940523) (122.5000041,152.4059288)</Points>
+                            <Points>(123.3355777,157.1447021) (124.9813363,161.6663869) (127.3872746,165.8335942) (130.4802892,169.5197055) (134.1664004,172.61272)</Points>
+                            <Points>(138.3336077,175.0186583) (142.8552926,176.664417) (147.5940658,177.4999906) (152.4059423,177.4999906) (157.1447156,176.664417)</Points>
+                            <Points>(161.6664004,175.0186583) (165.8336077,172.61272) (169.519719,169.5197055) (172.6127336,165.8335942) (175.0186718,161.6663869)</Points>
+                            <Points>(176.6644305,157.1447021) (177.5000041,152.4059288) (177.5000041,149.9999906) (190.0000041,149.9999906) (190.0000041,153.4995371)</Points>
+                            <Points>(188.7846243,160.3922982) (186.3907935,166.9692944) (182.891247,173.0306868) (178.3923166,178.3923031) (173.0307003,182.8912334)</Points>
+                            <Points>(166.9693079,186.39078) (160.3923117,188.7846108) (153.4995506,189.9999906) (146.5004575,189.9999906) (139.6076964,188.7846108)</Points>
+                            <Points>(133.0307003,186.39078) (126.9693079,182.8912334)</Points>
+                            <Objects>
+                                <Port MacroID="portA" Number="1" Vertex="2">
+                                    <Type Type="BOX"/>
+                                    <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0"/>
+                                    <Center>(0,150)</Center>
+                                </Port>
+                            </Objects>
+                        </PlanarPolygon>
+                    </Objects>
+                </PlanarTechLayer>
+            </Objects>
+        </Level>
+        <Level MacroID="diel_layerB" MaterialName="FR-4" Number="1">
+            <DielectricMaterialModel Thickness="30.0"/>
+        </Level>
+        <ViaTechLayer MacroID="viaTLA" Name="Via" MaterialName="Copper">
+            <ImportExportMapping DXFName="Via"/>
+            <ColorPattern Color="#32cd32" Pattern="dwndiag"/>
+            <ViaMaterialModel ModelType="VOLUME" Solid="FALSE" Thickness="0.7"/>
+            <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE"/>
+            <GLGMeshing GLG="FALSE"/>
+            <ViaLevels FromLevel="0" FromType="LEVEL" ToType="BOTTOM"/>
+            <Objects>
+                <ViaPolygon MacroID="polygonB" Id="76">
+                    <Points>(179.9999798,152.6246619) (179.088445,157.7942328) (177.2930719,162.7269799) (174.668412,167.2730242) (171.2942142,171.2942365)</Points>
+                    <Points>(167.2730019,174.6684342) (162.7269576,177.2930941) (157.7942105,179.0884672) (152.6246397,180.000002) (147.3753199,180.000002)</Points>
+                    <Points>(142.205749,179.0884672) (137.2730019,177.2930941) (132.7269576,174.6684342) (128.7057454,171.2942365) (125.3315476,167.2730242)</Points>
+                    <Points>(122.7068877,162.7269799) (120.9115146,157.7942328) (119.9999798,152.6246619) (119.9999798,147.3753421) (120.9115146,142.2057713)</Points>
+                    <Points>(122.7068877,137.2730242) (125.3315476,132.7269799) (128.7057454,128.7057676) (132.7269576,125.3315699) (137.2730019,122.70691)</Points>
+                    <Points>(142.205749,120.9115369) (147.3753199,120.000002) (152.6246397,120.000002) (157.7942105,120.9115369) (162.7269576,122.70691)</Points>
+                    <Points>(167.2730019,125.3315699) (171.2942142,128.7057676) (174.668412,132.7269799) (177.2930719,137.2730242) (179.088445,142.2057713)</Points>
+                    <Points>(179.9999798,147.3753421)</Points>
+                </ViaPolygon>
+            </Objects>
+        </ViaTechLayer>
+    </Geometry>
+    <Sweeps SweepVariables="FALSE">
+        <Set MacroID="sweepsetA" On="TRUE">
+            <Frequencies>
+                <Sweep MacroID="freq_sweepA" Type="ABS_ENTRY" On="TRUE" Adaptive="TRUE" Start="0.1" Stop="5" Target="300"/>
+            </Frequencies>
+        </Set>
+    </Sweeps>
+    <OutputFiles Folder="."/>
+</SonnetProject>

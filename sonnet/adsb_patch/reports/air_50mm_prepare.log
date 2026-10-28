@@ -1,0 +1,39 @@
+Reading air_50mm_prepare.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=adsb template="../models/air_50mm.sonx"
+
+
+New project adsb
+
+	template: "../models/air_50mm.sonx"
+
+
+> Line 2: add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+
+
+Adding output file "$BASENAME.s1p" to project adsb
+
+
+> Line 3: save path="../models/air_50mm_ready.sonx"
+
+
+Saving project adsb as "../models/air_50mm_ready.sonx"
+
+
+> Line 4: verify_project
+
+
+Verifying project adsb
+
+Verify passed
+
+{"Ports":1}
+
+Processing macro air_50mm_prepare.smc completed.
+

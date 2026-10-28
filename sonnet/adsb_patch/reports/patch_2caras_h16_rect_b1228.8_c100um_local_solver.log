@@ -1,0 +1,41 @@
+
+               ELECTROMAGNETIC ANALYSIS OF 3-D PLANAR CIRCUITS
+                              Version 19.54.2026
+
+                Copyright (c) 1986-2026 Sonnet Software Inc.
+                             All rights reserved.
+
+Run 1:  Wed Oct 21 21:36:39 2026.  unlam2.1.89766.
+        Em version 19.54.2026 (64-bit LNX-86) on alan-beam local.
+
+  Project:  /home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b1228.8_c100um_local.sonx.
+
+    Computer operating system:  Ubuntu 22.04.5 LTS
+
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+
+    Frequency:  1.09 GHz
+      Subsectioning time:  3 seconds.
+      ABS setup time:  3 seconds.
+      De-embedding setup time:  0 seconds.
+      Circuit requires 9,322 subsections and 3,417 MB of memory.
+      Threads:  using 4 thread(s), 4 core(s) available.
+
+      Waveguide mode time:  1 second.
+      Matrix fill time:  58 minutes 35 seconds.
+      Matrix solve time:  1 minute 14 seconds.
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.673290 -147.7
+      Total time per frequency:  59 minutes 58 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  3,890 MB.
+      Total time for 1 frequency:  1 hour.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Wed Oct 21 22:36:43 2026.
+
+Local em simulation completed successfully.

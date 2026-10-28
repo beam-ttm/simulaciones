@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.lck
+*~
+.DS_Store
+sonnet/adsb_patch/reports/data_backup_before_clean_*/

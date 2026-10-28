@@ -1,0 +1,39 @@
+Reading patch_2caras_m005_prepare.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=two template="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m005.sonx"
+
+
+New project two
+
+	template: "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m005.sonx"
+
+
+> Line 2: add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+
+
+Adding output file "$BASENAME.s1p" to project two
+
+
+> Line 3: verify_project
+
+
+Verifying project two
+
+Verify passed
+
+{"Ports":1}
+
+
+> Line 5: save path="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m005.sonx"
+
+
+Saving project two as "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m005.sonx"
+
+Processing macro patch_2caras_m005_prepare.smc completed.
+

@@ -1,0 +1,263 @@
+{
+  "units": "mm",
+  "altium": {
+    "PCB/2-Antena_patch/CubeSat_antenapatch/antena_modulo_gnss.PcbDoc": {
+      "sha256": "a2515fd7c2be947befbd01e7d3c5e7efdb219fcbb47d513417ef00d26fcb034f",
+      "centered_vertices": [
+        [
+          -32.60001481,
+          -33.24999319
+        ],
+        [
+          33.250008429999994,
+          -33.25000589
+        ],
+        [
+          33.24999319,
+          32.60000210999999
+        ],
+        [
+          32.59999957000001,
+          33.25000589
+        ],
+        [
+          -33.24999319,
+          33.249995729999995
+        ],
+        [
+          -33.250008429999994,
+          -32.59998940999999
+        ],
+        [
+          -32.60001481,
+          -33.24999319
+        ]
+      ],
+      "dimensions": [
+        66.50001685999999,
+        66.50001178
+      ],
+      "vertices_without_closure": 6,
+      "corner_cut_legs": [
+        [
+          0.6499936199999894,
+          0.6500037800000058
+        ],
+        [
+          0.6499936199999965,
+          0.6500037800000058
+        ]
+      ]
+    },
+    "PCB/2-Antena_patch/CubeSat_antenapatch/PCB1.PcbDoc": {
+      "sha256": "ea3c3c305531e98a6602ac7f663cf97594ce548418edda31662b749edcf6743d",
+      "centered_vertices": [
+        [
+          -32.60001481,
+          -33.24999319
+        ],
+        [
+          33.250008429999994,
+          -33.25000589
+        ],
+        [
+          33.24999319,
+          32.60000210999999
+        ],
+        [
+          32.59999957000001,
+          33.25000589
+        ],
+        [
+          -33.24999319,
+          33.249995729999995
+        ],
+        [
+          -33.250008429999994,
+          -32.59998940999999
+        ],
+        [
+          -32.60001481,
+          -33.24999319
+        ]
+      ],
+      "dimensions": [
+        66.50001685999999,
+        66.50001178
+      ],
+      "vertices_without_closure": 6,
+      "corner_cut_legs": [
+        [
+          0.6499936199999894,
+          0.6500037800000058
+        ],
+        [
+          0.6499936199999965,
+          0.6500037800000058
+        ]
+      ],
+      "feed_relative_to_patch_center": [
+        8.49999999843476e-05,
+        18.999914999999987
+      ],
+      "feed_pad_diameter_from_import": 0.8,
+      "feed_drill_diameter_from_import": 1.27,
+      "import_limit": "Unused internal plane mapping warnings; complete stackup not checked. Imported drill 1.27 exceeds pad 0.8: confirm this anomaly in native Altium before manufacturing."
+    },
+    "PCB/2-Antena_patch/CubeSat_antenapatch/PCB2.PcbDoc": {
+      "sha256": "fb97f25e07a475d2001afbf8a242138321823e4c3a94265863c0d4ea3c26b7ec",
+      "centered_vertices": [
+        [
+          -33.2500097,
+          -33.24999192
+        ],
+        [
+          33.25000969999999,
+          -33.250007159999996
+        ],
+        [
+          33.24999192,
+          33.250007159999996
+        ],
+        [
+          -33.24999192,
+          33.249994459999996
+        ],
+        [
+          -33.2500097,
+          -33.24999192
+        ]
+      ],
+      "dimensions": [
+        66.50001939999999,
+        66.50001431999999
+      ],
+      "vertices_without_closure": 4,
+      "corner_cut_legs": []
+    },
+    "PCB/1-ADS-B/ads-b-payload/altium/CubeSat_antenapatch/CubeSat_antenapatch/antena_modulo_gnss.PcbDoc": {
+      "sha256": "1b8cb62bf9ed46dfe5c5f30b7051a44973e56714ed92ae2d9e1fd824db82b0d9",
+      "centered_vertices": [
+        [
+          -32.60001481,
+          -33.24999319
+        ],
+        [
+          33.250008429999994,
+          -33.25000589
+        ],
+        [
+          33.24999319,
+          32.60000210999999
+        ],
+        [
+          32.59999957000001,
+          33.25000589
+        ],
+        [
+          -33.24999319,
+          33.249995729999995
+        ],
+        [
+          -33.250008429999994,
+          -32.59998940999999
+        ],
+        [
+          -32.60001481,
+          -33.24999319
+        ]
+      ],
+      "dimensions": [
+        66.50001685999999,
+        66.50001178
+      ],
+      "vertices_without_closure": 6,
+      "corner_cut_legs": [
+        [
+          0.6499936199999894,
+          0.6500037800000058
+        ],
+        [
+          0.6499936199999965,
+          0.6500037800000058
+        ]
+      ]
+    }
+  },
+  "sonnet": {
+    "sonnet/patch.sonx": {
+      "sha256": "42ee50df7228d71dc3847aad16d37c44d3d2e125f92736edd7976c6d449bd256",
+      "patch_dimensions": [
+        66.50000899999998,
+        66.50000899999998
+      ],
+      "boundary_hausdorff_vs_altium": 0.05594304756539881,
+      "outline_area_difference_vs_altium": 0.010392367548381756,
+      "cell_size": [
+        0.05,
+        0.05
+      ],
+      "diagonal_edges": "not explicitly stored; rectangular mesh",
+      "rf_pad_diameter": 0.4,
+      "rf_drill_diameter": 0.3,
+      "feed_description": "RF barrel spans 4 copper layers. Excitation is floating coupled port at D1 on B.Cu, not at the patch.",
+      "feed_relative_to_patch_center": [
+        8.550000006835035e-05,
+        18.999915499999815
+      ],
+      "feed_center_error_vs_altium": 7.071067191097472e-07,
+      "barrel_or_ideal_source_dimensions": [
+        0.35000000000002274,
+        0.35000000000002274
+      ]
+    },
+    "sonnet/patch_campo_lejano.sonx": {
+      "sha256": "edb1a58ab8ea5b63d0fb438900d9ec48dbf4595ca13282a986343b16f73b1101",
+      "patch_dimensions": [
+        66.50000999999997,
+        66.50000999999997
+      ],
+      "boundary_hausdorff_vs_altium": 3.543585763478386e-06,
+      "outline_area_difference_vs_altium": 0.000296320088950622,
+      "cell_size": [
+        0.5,
+        0.5
+      ],
+      "diagonal_edges": "FALSE",
+      "feed_description": "Idealized 1x1 square via source to level 1; patch clearance filled.",
+      "feed_relative_to_patch_center": [
+        -3.000000003794412e-05,
+        18.999969999999962
+      ],
+      "feed_center_error_vs_altium": 0.00012747548784906794,
+      "barrel_or_ideal_source_dimensions": [
+        1.0,
+        1.0
+      ]
+    },
+    "sonnet/patch_simple_barrido.sonx": {
+      "sha256": "edb1a58ab8ea5b63d0fb438900d9ec48dbf4595ca13282a986343b16f73b1101",
+      "patch_dimensions": [
+        66.50000999999997,
+        66.50000999999997
+      ],
+      "boundary_hausdorff_vs_altium": 3.543585763478386e-06,
+      "outline_area_difference_vs_altium": 0.000296320088950622,
+      "cell_size": [
+        0.5,
+        0.5
+      ],
+      "diagonal_edges": "FALSE",
+      "feed_description": "Idealized 1x1 square via source to level 1; patch clearance filled.",
+      "feed_relative_to_patch_center": [
+        -3.000000003794412e-05,
+        18.999969999999962
+      ],
+      "feed_center_error_vs_altium": 0.00012747548784906794,
+      "barrel_or_ideal_source_dimensions": [
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

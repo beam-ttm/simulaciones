@@ -1,0 +1,83 @@
+{
+  "purpose": "diagnostic simplified patch + finite GND, not the manufactured PCB",
+  "patch_outline": [
+    [
+      48.81001,
+      33.06003
+    ],
+    [
+      114.66003,
+      33.06002
+    ],
+    [
+      114.66002,
+      98.91003
+    ],
+    [
+      114.01003,
+      99.56003
+    ],
+    [
+      48.16003,
+      99.56002
+    ],
+    [
+      48.16002,
+      33.71003
+    ],
+    [
+      48.81001,
+      33.06003
+    ]
+  ],
+  "ground_outline": [
+    [
+      43.41003,
+      28.31002
+    ],
+    [
+      119.41003,
+      28.31002
+    ],
+    [
+      119.41003,
+      104.31002
+    ],
+    [
+      43.41003,
+      104.31002
+    ],
+    [
+      43.41003,
+      28.31002
+    ]
+  ],
+  "source_reference_plane": "original In1.Cu plane treated as GND",
+  "dielectric_gap_mm": 0.109,
+  "copper_midplane_spacing_mm": 0.14150000000000001,
+  "epsilon_r": 4.6,
+  "tan_delta": 0,
+  "box_mm": 1600.0,
+  "cell_mm": 0.5,
+  "cells_per_axis": 3200,
+  "air_each_side_mm": 40.0,
+  "source_type": "50 ohm via port; 1 mm square artificial source",
+  "source_center_sonnet_mm": [
+    800.0,
+    819.0
+  ],
+  "shift_from_kicad_mm": [
+    718.590005,
+    733.690005
+  ],
+  "simplifications": [
+    "filled source clearance in patch",
+    "idealized GND from In1 zone outline",
+    "removed copper layers In2 and B",
+    "removed all traces, components, pads, vias and mounting holes",
+    "source is not the physical 0.3 mm PCB drill",
+    "lossless uniform dielectric; no masks or finite FR4 edges"
+  ],
+  "single_point_GHz": 1.09,
+  "mesh_converged": false
+}

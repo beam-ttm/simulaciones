@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/beam-ttm/PCB",
+  "branch": "main",
+  "pcb_git_blob": "14dfc0d47c17186fb33b4abe7bb53a42ed9653eb",
+  "remote_main_pcb_blob_verified": "14dfc0d47c17186fb33b4abe7bb53a42ed9653eb",
+  "sha256": {
+    "ads-b.kicad_pcb": "e44a40b7f7c1c72ebfb7103f24de72a91bc084992aaabec3c9c76612aa482924",
+    "ads-b.kicad_pro": "0c50a20d2ea15a083fe10c3d6738d41ec76b07eeb7d22f73a300b7e0add7ae29",
+    "ads-b.kicad_sch": "e2b65577bc5ec4d2d727a31678957d816758bc9d7fecffedeb5caca2a4c0bbdf",
+    "blank.sonx": "a8802fc3c0cad402fba0392b5fb8a9bb92f64793542b83aafcc2be61378fc674",
+    "gerber/ads-b-B_Cu.gbr": "138863349d4f854eb269d93f6779a337f9a93bd521e9cfc0f871f8aee30eb02c",
+    "gerber/ads-b-B_Mask.gbr": "70e040fa95e21369bca13e51237aacded378b65f316d2dd240dbad61188125d5",
+    "gerber/ads-b-B_Paste.gbr": "d746607d5ba260ed9c70ece8d6602f4ce47c65277bc2dcd0877f31f908d7b2b5",
+    "gerber/ads-b-B_Silkscreen.gbr": "9a91ee6e1a24dbd7a6195d846bb7c818924b790fe501467b8278e8c5b52fbe66",
+    "gerber/ads-b-Edge_Cuts.gbr": "6a2affa4d7b2d0dbbcf4e5e5e817fa73776a0e834bed0955df14cbe8375bbc38",
+    "gerber/ads-b-F_Cu.gbr": "535d66f20edb1f4d7e9e8670bce17afce657fe17413ce1486e6b6398049484ec",
+    "gerber/ads-b-F_Mask.gbr": "d396e8747d50d18ff04e3c0d68a12fcafd6ca5c3583ce7a72573101b181e8c71",
+    "gerber/ads-b-F_Paste.gbr": "87b0d82471b63ec389f76043ee4302260a3fdaa7078c6550aeb9431fd7b2e080",
+    "gerber/ads-b-F_Silkscreen.gbr": "87bc89bac70b124e3281870b180f95b9cbe68fb0767240852782c384eb35afc8",
+    "gerber/ads-b-In1_Cu.gbr": "a65443a8dc4aaa7f755bd1236a94c0e0543c95ec894737c84ad058962b51ce8e",
+    "gerber/ads-b-In2_Cu.gbr": "036af738ba036b8b2b25bae9ac9693c819e270c7d23fc69410f2e782e6fbf06a",
+    "gerber/ads-b-NPTH.drl": "a2cc8b01b06fbb0f24ee36da9342860537bb0dfe160434e2284b970af527b7a9",
+    "gerber/ads-b-PTH.drl": "274cc0763b4457e2af58d33afa69ce1c6daead1cc0ef0ef4396786c6652e0598",
+    "gerber/ads-b-back-in2.drl": "98c6c125fae32adb84e7bcaf715858aba9f4c2645c9263bc88e45b192bb18db4",
+    "gerber/ads-b-job.gbrjob": "e7d9b5ea10460a586cef9b0f6746af410f49d84f42bb304bc396d64f30b9351e"
+  }
+}

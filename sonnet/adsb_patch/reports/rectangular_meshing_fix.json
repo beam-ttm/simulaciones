@@ -1,0 +1,132 @@
+{
+  "reason": "remote conformal meshing failure at level 2, x=799.09 y=793.806 mm",
+  "area_overlap_near_error_mm2": 0,
+  "projects": [
+    {
+      "file": "sonnet/patch.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "sonnet/patch_prueba.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/A_real.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/A_real_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/B_no_rf_barrel.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/B_no_rf_barrel_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_010.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_010_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_035.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_035_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_30mm.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_30mm_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_50mm.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_50mm_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2000mm.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2000mm_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2400mm.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2400mm_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/license_probe.sonx",
+      "layers_changed": 0,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/loss_assumed_016.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/loss_assumed_016_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_025um.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_025um_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_100um.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_100um_ready.sonx",
+      "layers_changed": 4,
+      "non_meshing_leaf_elements_unchanged": true
+    }
+  ],
+  "remote_solver_retested": false
+}

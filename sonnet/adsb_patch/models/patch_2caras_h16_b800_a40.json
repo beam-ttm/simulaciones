@@ -1,0 +1,63 @@
+{
+  "source": "PCB/2-Antena_patch/CubeSat_antenapatch/PCB1.PcbDoc",
+  "source_sha256": "ea3c3c305531e98a6602ac7f663cf97594ce548418edda31662b749edcf6743d",
+  "patch_vertices_relative_mm": [
+    [
+      -32.6,
+      -33.25
+    ],
+    [
+      33.25,
+      -33.25
+    ],
+    [
+      33.25,
+      32.6
+    ],
+    [
+      32.6,
+      33.25
+    ],
+    [
+      -33.25,
+      33.25
+    ],
+    [
+      -33.25,
+      -32.6
+    ]
+  ],
+  "ground_mm": [
+    76,
+    76
+  ],
+  "dielectric_gap_mm": 1.6,
+  "cad_dielectric_gap_mm": 1.39999974,
+  "height_source": "explicit user override: 1.6 mm FR4",
+  "epsilon_r": 4.4,
+  "copper_mm": 0.09999979999999999,
+  "tan_delta_assumed": 0.02,
+  "probe_diameter_assumed_mm": 0.8,
+  "feed_relative_mm": [
+    0,
+    19
+  ],
+  "feed": "ideal 50-ohm via port, solid probe directly bonded to patch and finite GND; not the Altium pad/hole or connector",
+  "limitations": [
+    "infinite uniform dielectric slab in Sonnet; finite substrate edges omitted",
+    "soldermask, coax connector and external cable omitted",
+    "FR4 loss assumed; epsilon from CAD, not measured"
+  ],
+  "mesh_converged": false,
+  "models": [
+    {
+      "path": "sonnet/patch_2caras_h16_rect_b800_c100um.sonx",
+      "cell_mm": 0.1,
+      "corner_cut_cells": 6.5
+    }
+  ],
+  "sweep_project": "sonnet/patch_2caras.sonx",
+  "box_mm": 800.0,
+  "air_each_side_mm": 40.0,
+  "copper_model": "two-sheet thick metal; patch extends UP into air, GND DOWN into air; FR4 clear gap 1.6 mm"
+}

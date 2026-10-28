@@ -1,0 +1,8 @@
+{
+  "state": "superseded",
+  "models": [
+    "patch_2caras_m010",
+    "patch_2caras_m005"
+  ],
+  "note": "User replaced 1.4 mm baseline with 1.6 mm FR4; old jobs stopped. See results/patch_2caras_h16."
+}

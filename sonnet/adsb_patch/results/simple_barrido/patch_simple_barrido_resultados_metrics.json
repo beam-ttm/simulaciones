@@ -1,0 +1,13 @@
+{
+  "source": "sonnet/patch_simple_barrido_resultados.s1p",
+  "z0_ohm": 50.0,
+  "minimum_S11_frequency_Hz": 1054000000.0,
+  "minimum_S11_dB": -5.5846190835689,
+  "note": "S11 minimum is a match minimum; inspect Zin/current modes before identifying resonance.",
+  "at_1090MHz": {
+    "return_loss_dB": 0.1022506348707941,
+    "VSWR": 169.89605897347252,
+    "Zin_real_ohm": 0.2945747549075313,
+    "Zin_imag_ohm": -1.5344102926882512
+  }
+}

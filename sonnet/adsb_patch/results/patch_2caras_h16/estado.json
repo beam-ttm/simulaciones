@@ -1,0 +1,12 @@
+{
+  "state": "in_progress",
+  "completed": [
+    "patch_2caras_h16_rect_b1638.4_c100um"
+  ],
+  "pending": [
+    "patch_2caras_h16_rect_b1228.8_c100um_local",
+    "patch_2caras_h16_rect_b1638.4_c100um_a50_local",
+    "patch_2caras_h16_rect_b1228.8_c50um"
+  ],
+  "note": "Single-frequency study at 1090 MHz. Wait for final convergence report; small-box diagnostics are not final."
+}

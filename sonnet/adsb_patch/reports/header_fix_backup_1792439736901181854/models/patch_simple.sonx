@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SonnetProject xmlns="https://www.sonnetsoftware.com/schema/project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="21" Type="GEO" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/project https://www.sonnetsoftware.com/schema/project/sonnet_project_file-1.0.xsd">
+  <GlobalTemperature Tnom="25.000" />
+  <Units>
+    <Angle>DEG</Angle>
+    <Capacitance>PF</Capacitance>
+    <Conductance>/OH</Conductance>
+    <Conductivity>SM</Conductivity>
+    <Frequency>GHZ</Frequency>
+    <Inductance>NH</Inductance>
+    <Length>MM</Length>
+    <Roughness>UM</Roughness>
+    <Resistance>OH</Resistance>
+    <Resistivity>OHCM</Resistivity>
+    <SheetRes>OHSQ</SheetRes>
+  </Units>
+  <Control>
+    <SweepType>VARSWP</SweepType>
+    <DeEmbed On="FALSE" />
+    <Precision>DOUBLE</Precision>
+    <SpeedControl>MAX_ACCURACY</SpeedControl>
+    <ABSCacheLevel>MULTI_SWEEP</ABSCacheLevel>
+    <Currents On="TRUE" />
+  </Control>
+  <Geometry YDirection="Negative">
+    <Dielectric MacroID="air" Name="Air" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+      <FrequencyModel ModelType="None" RefFreq="0" ValidRef="FALSE" />
+      <Conductivity Value="0" />
+      <Eps Value="1" />
+      <Tan Value="0" />
+      <MuRel Value="1" />
+      <MagLossTan Value="0" />
+    </Dielectric>
+    <Dielectric MacroID="substrate" Name="Substrate" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+      <FrequencyModel ModelType="None" RefFreq="0" ValidRef="FALSE" />
+      <Conductivity Value="0" />
+      <Eps Value="4.6" />
+      <Tan Value="0" />
+      <MuRel Value="1" />
+      <MagLossTan Value="0" />
+    </Dielectric>
+    <Conductor MacroID="copper" Name="Copper" Conductivity="58000000.0" LossType="CONDUCTIVITY" />
+    <Box>
+      <BoxCover MacroID="top_cover" Type="TOP" MaterialType="FREE_SPACE" Roughness="0" Thickness="0" />
+      <BoxCover MacroID="bot_cover" Type="BOTTOM" MaterialType="FREE_SPACE" Roughness="0" Thickness="0" />
+      <Size X="1600.0" Y="1600.0" Z="80.1415" />
+      <NumCells X="3200" Y="3200" />
+      <LocalOrigin X="0" Y="1600.0" />
+      <Symmetry On="FALSE" />
+    </Box>
+    <Level MacroID="lev0" MaterialName="Air" Number="0">
+      <DielectricMaterialModel Thickness="40.0" />
+      <Objects>
+        <PlanarTechLayer MacroID="cu0" Name="Patch" MaterialName="Copper">
+          <ColorPattern Color="#b76e28" Pattern="updiag" />
+          <PlanarMaterialModel CurrentRatio=".5" ModelType="THIN_METAL" Thickness="0.035" />
+          <RoughnessModel RoughnessOn="FALSE" />
+          <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR" />
+          <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y" />
+          <GLGMeshing GLG="FALSE" />
+          <Objects>
+            <PlanarPolygon MacroID="p0" Id="1">
+              <Points>(767.400015000,766.750035000) (833.250035000,766.750025000) (833.250025000,832.600035000) (832.600035000,833.250035000) (766.750035000,833.250025000) (766.750025000,767.400035000)</Points>
+            </PlanarPolygon>
+          </Objects>
+        </PlanarTechLayer>
+      </Objects>
+    </Level>
+    <Level MacroID="lev1" MaterialName="Substrate" Number="1">
+      <DielectricMaterialModel Thickness="0.14150000000000001" />
+      <Objects>
+        <PlanarTechLayer MacroID="cu1" Name="GND" MaterialName="Copper">
+          <ColorPattern Color="#338899" Pattern="updiag" />
+          <PlanarMaterialModel CurrentRatio=".5" ModelType="THIN_METAL" Thickness="0.03" />
+          <RoughnessModel RoughnessOn="FALSE" />
+          <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR" />
+          <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y" />
+          <GLGMeshing GLG="FALSE" />
+          <Objects>
+            <PlanarPolygon MacroID="p1" Id="2">
+              <Points>(762.000035000,762.000025000) (838.000035000,762.000025000) (838.000035000,838.000025000) (762.000035000,838.000025000)</Points>
+            </PlanarPolygon>
+          </Objects>
+        </PlanarTechLayer>
+      </Objects>
+    </Level>
+    <Level MacroID="lev2" MaterialName="Air" Number="2">
+      <DielectricMaterialModel Thickness="40.0" />
+    </Level>
+    <ViaTechLayer MacroID="source_layer" Name="Ideal_excitation" MaterialName="Copper">
+      <ColorPattern Color="#bb44dd" Pattern="updiag" />
+      <ViaMaterialModel ModelType="VOLUME" Solid="FALSE" Thickness="0.025" />
+      <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE" />
+      <GLGMeshing GLG="FALSE" />
+      <ViaLevels FromLevel="0" FromType="LEVEL" ToLevel="1" ToType="LEVEL" />
+      <Objects>
+        <ViaPolygon MacroID="source" Id="3">
+          <Points>(799.500000000,818.500000000) (800.500000000,818.500000000) (800.500000000,819.500000000) (799.500000000,819.500000000)</Points>
+          <Objects>
+            <Port MacroID="port1" Number="1" Vertex="0">
+              <Type Type="VIA" />
+              <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0" />
+              <Center>(800.000000000,818.500000000)</Center>
+            </Port>
+          </Objects>
+        </ViaPolygon>
+      </Objects>
+    </ViaTechLayer>
+  </Geometry>
+  <Sweeps SweepVariables="FALSE">
+    <Set MacroID="sweep" On="TRUE">
+      <Frequencies>
+        <Sweep MacroID="f1090" Type="STEP" On="TRUE" Start="1.09" Stop="1.09" Step=".001" />
+      </Frequencies>
+    </Set>
+  </Sweeps>
+  <OutputFiles Folder="." />
+</SonnetProject>

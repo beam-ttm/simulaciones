@@ -1,0 +1,13 @@
+{
+  "native_read_write_cycles": 2,
+  "revision_dates_preserved": true,
+  "revisions": {
+    "MEDIUM": "10/19/2026 16:55:36",
+    "HIGH": "10/19/2026 16:55:36"
+  },
+  "barrido_original_preserved": true,
+  "recovered_actual_frequency_points": 7,
+  "new_graph": "sonnet/patch_simple_barrido_s11.sgrx",
+  "remote_retest_completed": false,
+  "remote_retest_failure": "The server cannot be reached."
+}

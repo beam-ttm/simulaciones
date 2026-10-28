@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPatvu2dGraphWin Type="2D_Polar" Version="19.54">
+ <WindowSettings x="40" y="40" width="960" height="720"/>
+ <GraphView labels="1" title="Ganancia RHCP (E-RHP = +9.66 dBiC) vs LHCP (E-LHP = -5.95 dBiC) @ 1090 MHz" show_grid="1" show_legend="1" legend_location="2" left_axis_count="1" right_axis_count="0" Polar="1" ZeroLocation="0" Direction="1">
+  <x_axis min="-180" max="180" major_step="30" minor_ticks="3" autoscale="1" visible="1" label="Theta (Degrees)" scale="0" show_grid="1" number_format="0" precision="0"/>
+  <y_axis_left index="0" min="-25" max="12" major_step="5" minor_ticks="5" autoscale="0" visible="1" label="Gain (dBiC)" scale="0" show_grid="1" number_format="0" precision="1"/>
+  <DataSets>
+   <CurveGroup label="Ganancia RHCP (E-RHP, Phi=0 deg)" visible="1" show_symbols="0" show_lines="1" show_discrete="0" axis_location="0" axis_index="0" file_index="0" equation="E-RHP" PlotType="0" Port_excitation_index="0" CutAngle="0">
+    <State>
+     <Properties>
+      <Color name="Color" value="#008800"/>
+      <Line_Style name="Line Style" value="1"/>
+      <Line_Width name="Line Width" value="2"/>
+      <Symbol_Type name="Symbol Type" value="0"/>
+      <Symbol_Size name="Symbol Size" value="5"/>
+      <Symbol_Color name="Symbol Color" value="#008800"/>
+      <Symbol_Fill_Color name="Symbol Fill Color" value="#008800"/>
+     </Properties>
+    </State>
+    <ParamValues>
+     <Param index="0" name="Frequency" value="1.09e+09"/>
+     <Param index="1" name="Phi" value="0"/>
+     <Param index="2" name="Theta" value="All"/>
+    </ParamValues>
+   </CurveGroup>
+   <CurveGroup label="Ganancia RHCP (E-RHP, Phi=90 deg)" visible="1" show_symbols="0" show_lines="1" show_discrete="0" axis_location="0" axis_index="0" file_index="0" equation="E-RHP" PlotType="0" Port_excitation_index="0" CutAngle="90">
+    <State>
+     <Properties>
+      <Color name="Color" value="#004c97"/>
+      <Line_Style name="Line Style" value="1"/>
+      <Line_Width name="Line Width" value="2"/>
+      <Symbol_Type name="Symbol Type" value="1"/>
+      <Symbol_Size name="Symbol Size" value="5"/>
+      <Symbol_Color name="Symbol Color" value="#004c97"/>
+      <Symbol_Fill_Color name="Symbol Fill Color" value="#004c97"/>
+     </Properties>
+    </State>
+    <ParamValues>
+     <Param index="0" name="Frequency" value="1.09e+09"/>
+     <Param index="1" name="Phi" value="90"/>
+     <Param index="2" name="Theta" value="All"/>
+    </ParamValues>
+   </CurveGroup>
+   <CurveGroup label="Cross-Pol LHCP (E-LHP, Phi=0 deg)" visible="1" show_symbols="0" show_lines="1" show_discrete="0" axis_location="0" axis_index="0" file_index="0" equation="E-LHP" PlotType="0" Port_excitation_index="0" CutAngle="0">
+    <State>
+     <Properties>
+      <Color name="Color" value="#d50000"/>
+      <Line_Style name="Line Style" value="2"/>
+      <Line_Width name="Line Width" value="2"/>
+      <Symbol_Type name="Symbol Type" value="2"/>
+      <Symbol_Size name="Symbol Size" value="5"/>
+      <Symbol_Color name="Symbol Color" value="#d50000"/>
+      <Symbol_Fill_Color name="Symbol Fill Color" value="#d50000"/>
+     </Properties>
+    </State>
+    <ParamValues>
+     <Param index="0" name="Frequency" value="1.09e+09"/>
+     <Param index="1" name="Phi" value="0"/>
+     <Param index="2" name="Theta" value="All"/>
+    </ParamValues>
+   </CurveGroup>
+  </DataSets>
+  <Files>
+   <File index="0" file_name="patch_completa_jp3_gcpw_CP_1090.sonx" full_file_name="/home/alan/Escritorio/CubeSat/simulations/diseno_final_patch_1090/sonnet/patch_completa_jp3_gcpw_CP_1090.sonx" parameter_set="0" port_count="1" state="0" deembed="1" Time_Factor="0" Normalize="0" FFM_Radius="100" JXY_Surface="0" CalcType="0" PortTermType="1">
+    <PortDriveSets>
+     <PortDrive index="0" name="Port 1 Driven">
+      <Port mag="1" phase="0" resistance="50" reactance="0" inductance="0" capacitance="0"/>
+     </PortDrive>
+    </PortDriveSets>
+    <ThetaSet>
+     <Range start="-90" stop="90" step="1"/>
+    </ThetaSet>
+    <PhiSet>
+     <Range start="0" stop="355" step="5"/>
+    </PhiSet>
+   </File>
+  </Files>
+ </GraphView>
+</SPatvu2dGraphWin>

@@ -1,0 +1,125 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_h16_b400_c100um.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_premekejq.zon'.
+
+JOBN:  6
+JOBI:  1792628348
+Sending project to server
+
+Queued
+Unpacking at server
+Starting to run
+Running
+ST0:  Project: patch_2caras_h16_b400_c100um.sonx
+MRUN:  Run 1:  Wed Oct 21 21:19:05 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_2caras_h16_b400_c100um.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.7.
+STL2:  Subsectioning circuit.
+QUUP:  0
+MBTM:        Subsectioning time:  3 seconds.
+QUUP:  0
+MBTM:        ABS setup time:  9 seconds.
+MBTM:        De-embedding setup time:  0 seconds.
+QUUP:  0
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 1,062 MB
+ST2:  Subs: 7,485
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 7,485 subsections and 1,062 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0a:
+        Surface Rectangular:  1,377
+        Surface Conformal:    13
+        Diagonal:             13
+      Level 0b:
+        Surface Rectangular:  1,377
+        Surface Conformal:    13
+        Diagonal:             13
+        Via:                  109
+      Level 1:
+        Surface Rectangular:  2,709
+        Via:                  20
+      Level 2a:
+        Surface Rectangular:  1,671
+        Via:                  196
+MDTM:  
+      Process memory by type:
+        System matrix:            427 MB
+        Elemental subsections:
+          Primary structure:      366 MB
+        Fourier transform:        246 MB
+        Waveguide mode:           22 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,062 MB
+
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.09 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Threads:  using 24 thread(s), 24 core(s) available.
+
+MBTM:        Waveguide mode time:  0.143 seconds.
+STL2:  Loading matrix (step 1 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 2 of 10)
+QUUP:  0
+STOP:  0
+STL1:  Stopped while analyzing:  1.09 GHz
+MRUN:        Em errors detected: 0    Em warnings detected: 0.
+FTS:  Stopped Time: 0
+STOP:  1
+STL2:  Analysis terminated at server by admin.
+Job deleted at server by admin
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_2caras_h16_b400_c100um.sonx'.
+Completing JXY files.
+Post-processing jxy data.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Stopped
+
+Post-processing complete.
+CLFW:  3
+STL1:  Stopped while analyzing:  1.09 GHz
+STL2:  Analysis Stopped
+Emclient completed successfully

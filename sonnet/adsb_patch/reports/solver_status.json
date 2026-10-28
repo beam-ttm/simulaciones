@@ -1,0 +1,21 @@
+{
+  "sonnet_version": "19.54.2026",
+  "probe_command": "em -test",
+  "probe_result": "failed",
+  "errors": [
+    "Em licensing error.",
+    "Communications error with license server (-17)",
+    "Connection refused at server (-111)"
+  ],
+  "antenna_simulation_executed": false,
+  "convergence_executed": false,
+  "s11_available": false,
+  "latest_remote_attempt": {
+    "host": "10.16.100.159:56150",
+    "run": "2026-10-19 16:24:24",
+    "platform": "Windows 19.54.2026",
+    "result": "failed during conformal meshing at 0.8 GHz",
+    "fix": "planar RECTANGULAR meshing",
+    "fix_solver_retested": false
+  }
+}

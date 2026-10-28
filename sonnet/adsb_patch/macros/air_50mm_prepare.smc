@@ -1,0 +1,5 @@
+add project id=adsb template="../models/air_50mm.sonx"
+add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+save path="../models/air_50mm_ready.sonx"
+verify_project
+get num_ports

@@ -1,0 +1,62 @@
+{
+  "variant": "A_real",
+  "box_mm": 1600.0,
+  "requested_cell_mm": 0.05,
+  "actual_cell_mm": 0.05,
+  "air_each_side_mm": 50.0,
+  "tan_delta": 0.0,
+  "shift_from_kicad_mm": [
+    718.590005,
+    733.690005
+  ],
+  "foil_midplane_separations_mm": [
+    0.14150000000000001,
+    1.26,
+    0.14150000000000001
+  ],
+  "planar": {
+    "F.Cu": {
+      "polygons": 12,
+      "split_area_error_mm2": 2.2428726633317443e-13,
+      "area_mm2": 4463.457764823865
+    },
+    "In1.Cu": {
+      "polygons": 12,
+      "split_area_error_mm2": 1.293187779089961e-17,
+      "area_mm2": 5817.62483150043
+    },
+    "In2.Cu": {
+      "polygons": 60,
+      "split_area_error_mm2": 7.90133466412e-14,
+      "area_mm2": 5781.132071922223
+    },
+    "B.Cu": {
+      "polygons": 304,
+      "split_area_error_mm2": 1.2311625311880033e-13,
+      "area_mm2": 5590.7220506465965
+    }
+  },
+  "barrels_including_plated_pads": 92,
+  "ports": [
+    {
+      "number": 1,
+      "kicad_center_mm": [
+        78.5,
+        85.6
+      ],
+      "polygon_id": "175",
+      "edge": 67
+    },
+    {
+      "number": -1,
+      "kicad_center_mm": [
+        78.38337,
+        85.8005
+      ],
+      "polygon_id": "259",
+      "edge": 150
+    }
+  ],
+  "solver_results": "NOT CALCULATED",
+  "B_interpretation": "open RF barrel control, NOT an ideal zero-inductance connection"
+}

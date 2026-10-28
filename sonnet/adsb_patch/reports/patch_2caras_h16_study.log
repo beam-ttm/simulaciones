@@ -1,0 +1,16 @@
+/home/alan/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+{
+  "source": "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b1638.4_c100um.s1p",
+  "z0_ohm": 50.0,
+  "minimum_S11_frequency_Hz": 1090000000.0,
+  "minimum_S11_dB": -3.4359590046417403,
+  "note": "S11 minimum is a match minimum; inspect Zin/current modes before identifying resonance.",
+  "at_1090MHz": {
+    "return_loss_dB": 3.4359590046417403,
+    "VSWR": 5.121633602144371,
+    "Zin_real_ohm": 10.549164755206556,
+    "Zin_imag_ohm": -13.897815841089136
+  }
+}
+Completed native field export: patch_2caras_h16_rect_b1638.4_c100um

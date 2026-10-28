@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graph_file xmlns="https://www.sonnetsoftware.com/schema/graph" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="15" Type="GRAPH" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/graph https://www.sonnetsoftware.com/schema/graph/graph_file-1.0.xsd">
+  <Window ClassName="SPatvu3dWin" DocID="595342848" ShellIndex="0" TabIndex="3" ActiveView="true">
+    <geometry>01d9d0cb0003000000000000000000000000077b0000039d0000000000000000ffffffffffffffff0000000000000000078000000000000000000000077b0000039d</geometry>
+    <state>000000ff00000000fd0000000100000000000001000000034efc0200000003fb0000000a005300630061006c00650100000035000001a30000007400fffffffb0000001a004e006f0072006d0061006c0069007a006100740069006f006e01000001de000000900000005600fffffffb0000000e00530065007300730069006f006e01000002740000010f0000005600ffffff000006760000034e00000004000000040000000800000008fc0000000100000002000000030000001600460069006c00650054006f006f006c0042006100720100000000ffffffff000000000000000000000018004700720061007000680054006f006f006c004200610072010000006bffffffff00000000000000000000001a004c00610075006e006300680054006f006f006c00420061007201000001daffffffff0000000000000000</state>
+    <Guts>
+      <graph_info version="15" tab_label="3D RHCP (1090 MHz desde JP3)">
+        <window_specific>
+          <normalization Type="0" NormForm="0" NormValue="0" AbsoluteForm="0" />
+        </window_specific>
+        <terminations>R 50.00000</terminations>
+        <source_files>
+          <source id="0">
+            <file>patch_completa_jp3_gcpw_CP_1090.sonx</file>
+            <Data Number="1">
+              <PVData Index="0">
+                <PARAM />
+                <Setup>CTLPG
+THETA 0.000000 180.0000 5.000000
+PHI -180.000 180.0000 5.000000
+GHZ
+FREQ 1.09000000
+PORT 1 MAG=1.000000 PHASE=0.000000 R=50.00000 X=0.000000 L=0.000000 C=0.000000
+ENDCTL</Setup>
+              </PVData>
+            </Data>
+          </source>
+        </source_files>
+        <plot type="SPatvu3dWin" plotover="0" graph_title="">
+          <graph_properties show_grid="1" show_symbols="1" grid_weight="1" axis_weight="1" />
+          <graph_units>
+            <length unit="mm" />
+            <resistance unit="Ohms" />
+            <inductance unit="nH" />
+            <capacitance unit="pF" />
+            <frequency unit="GHz" />
+            <conductivity unit="S/m" />
+            <resistivity unit="Ohm-cm" />
+            <sheet_resistance unit="Ohms/sq" />
+          </graph_units>
+          <marker_properties>
+            <data_marker_properties color="#004c97" weight="12" symbol="2" display_annotation="1" />
+            <curve_marker_properties color="#004c97" show_parameters="0" hide_label="0" />
+            <note_marker_properties color="#004c97" />
+            <delta_marker_properties color="#004c97" />
+            <line_marker_properties color="#004c97" weight="2" style="2" display_annotation="1" />
+            <line_segment_marker_properties color="#004c97" weight="2" style="2" symbol="0" symbol_size="12" />
+            <general_properties text_size="10" label_precision="4" />
+          </marker_properties>
+        </plot>
+      </graph_info>
+    </Guts>
+  </Window>
+</graph_file>

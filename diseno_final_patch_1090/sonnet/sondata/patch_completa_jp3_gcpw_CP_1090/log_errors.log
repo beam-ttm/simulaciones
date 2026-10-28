@@ -1,0 +1,15 @@
+Run 1:  Thu Oct 22 09:10:23 2026.  .
+        Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 local.
+
+  Project:  C:\Users\Desarrollo2\sonnet_run\patch_completa_jp3_gcpw_CP_1090.sonx.
+
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 1, Stop = 1.18 GHz
+
+    Post-Analysis information for em run 1:
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Thu Oct 22 09:21:51 2026.

@@ -1,0 +1,61 @@
+Run 1:  Mon Oct 19 16:37:24 2026.  .
+        Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_simple.sonx.
+    Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.8.
+      Subsectioning time:  0.075 seconds.
+      ABS setup time:  0.185 seconds.
+      De-embedding setup time:  0 seconds.
+      Em license feature:  embeowulf.
+
+      Circuit requires 2,241 subsections and 234 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  709
+      Level 1:
+        Surface Rectangular:  1,528
+        Via:                  4
+
+      Process memory by type:
+        System matrix:            38 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+        Fourier transform:        158 MB
+        Waveguide mode:           31 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    234 MB
+
+      Amount of RAM installed on host computer:  32 GB
+      Number of logical processors:  24
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  remote em transfer.
+      Threads:  using 24 thread(s), 24 core(s) available.
+
+      Waveguide mode time:  0.168 seconds.
+      Fourier transform time:  12 seconds.
+      Coupling time:  0.397 seconds.
+      Loss time:  0.016 seconds.
+      Matrix fill time:  12 seconds.
+      Matrix solve time:  0.329 seconds.
+      Frequency completed Mon Oct 19 16:37:40 2026.
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.988349 -176.7
+      Total time per frequency:  15 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  354 MB.
+      Total time for 1 frequency:  15 seconds.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Remote em simulation completed Mon Oct 19 16:37:40 2026.

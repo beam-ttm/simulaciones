@@ -1,0 +1,417 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_h16_barrido_rapido.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preymxGoU.zon'.
+
+JOBN:  5
+JOBI:  1792637422
+Sending project to server
+
+Queued
+Unpacking at server
+QUUP:  0
+Starting to run
+Running
+ST0:  Project: patch_2caras_h16_barrido_rapido.sonx
+MRUN:  Run 1:  Wed Oct 21 23:50:20 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_2caras_h16_barrido_rapido.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  2 Complete
+PCT:  15
+COM:  Frequencies:  2 Complete
+PCT:  15
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:  
+    Pre-Analysis:
+      ABS: SNR = 74.2231 dB (102.991 dB Goal) for S1_1 at 1.1 GHz.
+MBTM:        ABS: Time = 0.010 seconds.
+STL1:  
+STL2:  
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0.8, Stop = 1.4 GHz
+MDTM:  
+    Frequency:  1.1 GHz
+      Subsectioning at 1.4 GHz with Eeff of 2.7.
+STL2:  Subsectioning circuit.
+MBTM:        Subsectioning time:  0.825 seconds.
+MBTM:        ABS setup time:  2 seconds.
+MBTM:        De-embedding setup time:  0 seconds.
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 448 MB
+ST2:  Subs: 6,680
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 6,680 subsections and 448 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0a:
+        Surface Rectangular:  1,278
+      Level 0b:
+        Surface Rectangular:  1,278
+        Via:                  105
+      Level 1:
+        Surface Rectangular:  2,482
+        Via:                  8
+      Level 2a:
+        Surface Rectangular:  1,341
+        Via:                  188
+MDTM:  
+      Process memory by type:
+        System matrix:            340 MB
+        Elemental subsections:
+          Primary structure:      57 MB
+        Fourier transform:        40 MB
+        Waveguide mode:           11 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    448 MB
+
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.1 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Waveguide mode time:  0.064 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+QUUP:  0
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.059 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00191836,0.00191836,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  4 seconds.
+MDTM:        Frequency completed Wed Oct 21 23:50:53 2026.
+LSPR:  
+    Frequency:  1.1 GHz
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.10000000 0.772809 -156.0
+LCMP:  
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.10000000 0.772809 -156.0
+FTM:        Previous Frequency Time:  29 sec.
+MBTM:        Total time per frequency:  29 seconds.
+COM:  Frequencies:  3 Complete
+PCT:  23
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 21.9755 dB (56.3169 dB Goal) for S1_1 at 1.25 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  1.25 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.25 GHz
+      Waveguide mode time:  0.064 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.059 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.00191836,0.00191836,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  4 seconds.
+MDTM:        Frequency completed Wed Oct 21 23:51:20 2026.
+LSPR:  
+    Frequency:  1.25 GHz
+      1.25000000 0.979254 169.30
+LCMP:        1.25000000 0.979254 169.30
+FTM:        Previous Frequency Time:  26 sec.
+MBTM:        Total time per frequency:  26 seconds.
+COM:  Frequencies:  4 Complete
+PCT:  31
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 0.293772 dB (56.3169 dB Goal) for S1_1 at 1.06 GHz.
+MBTM:        ABS: Time = 0.005 seconds.
+STL1:  
+STL2:  
+STL1:  1.06 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.06 GHz
+      Waveguide mode time:  0.061 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.059 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00191836,0.00191836,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  4 seconds.
+MDTM:        Frequency completed Wed Oct 21 23:51:47 2026.
+LSPR:  
+    Frequency:  1.06 GHz
+      1.06000000 0.084265 15.828
+LCMP:        1.06000000 0.084265 15.828
+FTM:        Previous Frequency Time:  27 sec.
+MBTM:        Total time per frequency:  27 seconds.
+COM:  Frequencies:  5 Complete
+PCT:  38
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: Gap. 0.93 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  0.93 GHz Analyzing primary
+MBTM:  
+    Frequency:  0.93 GHz
+      Waveguide mode time:  0.058 seconds.
+STL2:  Loading matrix (step 1 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+QUUP:  0
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.060 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00191836,0.00191836,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  4 seconds.
+MDTM:        Frequency completed Wed Oct 21 23:52:14 2026.
+LSPR:  
+    Frequency:  0.93 GHz
+      0.93000000 0.978163 153.17
+LCMP:        0.93000000 0.978163 153.17
+FTM:        Previous Frequency Time:  27 sec.
+MBTM:        Total time per frequency:  27 seconds.
+COM:  Frequencies:  6 Complete
+PCT:  46
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 82.6887 dB (40 dB Goal) for S1_1 at 1.064 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL2:  Storing adaptive results
+COM:  Frequencies:  6 Discrete (301 Adaptive)
+PCT:  86
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+STL1:  1.09 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.09 GHz
+      Waveguide mode time:  0.061 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.059 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.00191836,0.00191836,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  4 seconds.
+MDTM:        Frequency completed Wed Oct 21 23:52:42 2026.
+LSPR:  
+    Frequency:  1.09 GHz
+      1.09000000 0.674850 -146.3
+LCMP:        1.09000000 0.674850 -146.3
+FTM:        Previous Frequency Time:  27 sec.
+MBTM:        Total time per frequency:  27 seconds.
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 110.194 dB (40 dB Goal) for S1_1 at 1.348 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL2:  Storing adaptive results
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+PCT:  100
+MBTM:  
+    Post-Analysis information for em run 1:
+      Peak memory usage:  653 MB.
+      Total time for 5 frequencies:  2 minutes 22 seconds.
+STL1:  
+MRUN:        Em errors detected: 0    Em warnings detected: 0.
+STL2:  Transferring Auto Documentation data.
+STL2:  Writing Auto Documentation data.
+STL2:  Writing Sonnet Internal Data (SID) files.
+STL2:  Transferring remote server files.
+STL2:  Remote em simulation completed Wed Oct 21 23:52:42 2026
+MRUN:  
+Remote em simulation completed Wed Oct 21 23:52:42 2026.
+Analysis finished on the server
+Packing at server
+Packed at server
+Copying to client
+Job completed
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+ERROR: SetAllWithError:168 Sonnet Error:
+Values Are Not Compatible.
+Start must be less than stop.
+
+ERROR: SetAllWithError:168 Sonnet Error:
+Values Are Not Compatible.
+Start must be less than stop.
+
+ERROR: Read:350 Sonnet Error:
+Improper Entry.
+Must have at least one value.
+
+ERROR: Read:350 Sonnet Error:
+Improper Entry.
+Must have at least one value.
+
+ERROR: ReadFileWithSort:311 Sonnet Error:
+Improper Data File Syntax.
+At line number 7 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END SWEEPS
+At line number 9 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END PARAMS
+At line number 12 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	PORTS 1
+
+
+ERROR: ReadFileWithSort:311 Sonnet Error:
+Improper Data File Syntax.
+At line number 7 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END SWEEPS
+At line number 9 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END PARAMS
+At line number 12 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	PORTS 1
+
+
+Completing files.
+Processing main project file 'patch_2caras_h16_barrido_rapido.sonx'.
+ERROR: SetAllWithError:168 Sonnet Error:
+Values Are Not Compatible.
+Start must be less than stop.
+
+ERROR: SetAllWithError:168 Sonnet Error:
+Values Are Not Compatible.
+Start must be less than stop.
+
+ERROR: Read:350 Sonnet Error:
+Improper Entry.
+Must have at least one value.
+
+ERROR: Read:350 Sonnet Error:
+Improper Entry.
+Must have at least one value.
+
+ERROR: ReadFileWithSort:311 Sonnet Error:
+Improper Data File Syntax.
+At line number 7 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END SWEEPS
+At line number 9 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END PARAMS
+At line number 12 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	PORTS 1
+
+
+ERROR: ReadFileWithSort:311 Sonnet Error:
+Improper Data File Syntax.
+At line number 7 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END SWEEPS
+At line number 9 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	END PARAMS
+At line number 12 in file.
+Bad Line in data file "/home/alan/Escritorio/CubeSat/sonnet/sondata/patch_2caras_h16_barrido_rapido/geo_interpdata_nd.sid" :
+	PORTS 1
+
+
+Completing JXY files.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Finished
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Finished
+Emclient completed successfully

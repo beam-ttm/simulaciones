@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonnetResponseGraph Type="2D_Cartesian" Version="19.54">
+ <WindowSettings x="25" y="25" width="980" height="680"/>
+ <GraphView labels="1" title="S11 desde JP3 (181 pts, 1.00 - 1.18 GHz): |S11| = -27.6 dB @ 1090 MHz (-32.5 dB @ 1087 MHz)" show_grid="1" show_legend="1" legend_location="2" left_axis_count="1" right_axis_count="0">
+  <x_axis min="1" max="1.18" major_step="0.02" minor_ticks="4" autoscale="0" visible="1" label="Frequency (GHz)" scale="0" show_grid="1" number_format="1" precision="3"/>
+  <y_axis_left index="0" min="-35" max="0" major_step="5" minor_ticks="5" autoscale="0" visible="1" label="Magnitude (dB)" scale="0" show_grid="1" number_format="0" precision="1"/>
+  <DataSets>
+   <CurveGroup label="DB[S11] (desde JP3 -> GCPW -> Via -> Parche RHCP)" visible="1" show_symbols="0" show_lines="1" show_discrete="0" axis_location="0" axis_index="0" file_index="0" left_Termination_index="0" right_Termination_index="0">
+    <DataType category="0" type="0" Measure="1" port1="1" port2="1">
+     <Argument arg="1"/>
+     <Argument arg="1"/>
+    </DataType>
+    <State>
+     <Properties>
+      <Color name="Color" value="#004c97"/>
+      <Line_Style name="Line Style" value="1"/>
+      <Line_Width name="Line Width" value="2"/>
+      <Symbol_Type name="Symbol Type" value="0"/>
+      <Symbol_Size name="Symbol Size" value="5"/>
+      <Symbol_Color name="Symbol Color" value="#004c97"/>
+      <Symbol_Fill_Color name="Symbol Fill Color" value="#004c97"/>
+     </Properties>
+    </State>
+   </CurveGroup>
+  </DataSets>
+  <Files>
+   <File index="0" file_name="patch_completa_jp3_gcpw_CP_1090.sonx" full_file_name="/home/alan/Escritorio/CubeSat/simulations/diseno_final_patch_1090/sonnet/patch_completa_jp3_gcpw_CP_1090.sonx" parameter_set="0" port_count="1" state="0" deembed="1">
+    <Terminations>
+     <Termination index="0" name="Default">
+      <PortTerm resistance="50" reactance="0" inductance="0" capacitance="0" type="0"/>
+     </Termination>
+    </Terminations>
+   </File>
+  </Files>
+ </GraphView>
+</SonnetResponseGraph>

@@ -1,0 +1,20 @@
+{
+  "patch_2caras_m010": {
+    "native_verify_passed": true,
+    "two_planar_polygons": true,
+    "one_50ohm_via_port": true,
+    "six_patch_vertices": true,
+    "cell_mm": 0.1,
+    "copper_midplane_spacing_mm": 1.49999954,
+    "mesh_convergence_checked": false
+  },
+  "patch_2caras_m005": {
+    "native_verify_passed": true,
+    "two_planar_polygons": true,
+    "one_50ohm_via_port": true,
+    "six_patch_vertices": true,
+    "cell_mm": 0.05,
+    "copper_midplane_spacing_mm": 1.49999954,
+    "mesh_convergence_checked": false
+  }
+}

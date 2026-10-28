@@ -1,0 +1,9 @@
+{
+  "frequency_GHz": 1.09,
+  "theta_degrees": 0,
+  "phi_degrees": 0,
+  "axial_ratio_dB_from_saved_complex_fields": 54.56056841211157,
+  "native_graph": "sonnet/patch_polarizacion_AR_1090.sptx",
+  "native_graph_observation": "AR curve reaches 40 dB display ceiling at boresight",
+  "scope": "Simplified model; no convergence or real PCB validation; no geometry changes"
+}

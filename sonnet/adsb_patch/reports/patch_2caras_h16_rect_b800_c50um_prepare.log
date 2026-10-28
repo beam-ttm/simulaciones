@@ -1,0 +1,33 @@
+Reading patch_2caras_h16_rect_b800_c50um_prepare.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=two template="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b800_c50um.sonx"
+
+
+New project two
+
+	template: "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b800_c50um.sonx"
+
+
+> Line 2: verify_project
+
+
+Verifying project two
+
+Verify passed
+
+{"Ports":1}
+
+
+> Line 4: save path="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b800_c50um.sonx"
+
+
+Saving project two as "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b800_c50um.sonx"
+
+Processing macro patch_2caras_h16_rect_b800_c50um_prepare.smc completed.
+

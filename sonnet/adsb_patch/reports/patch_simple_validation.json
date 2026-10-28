@@ -1,0 +1,22 @@
+{
+  "planar_polygons": 2,
+  "source_ports": 1,
+  "geometry_area_error_mm2": {
+    "Patch": 2.983178180387614e-12,
+    "GND": 1.9895196601282805e-12
+  },
+  "remote_host": "10.16.100.159:56150",
+  "remote_platform": "Windows Sonnet 19.54.2026",
+  "solver_completed": true,
+  "frequencies_GHz": [
+    1.09
+  ],
+  "errors": 0,
+  "warnings": 0,
+  "peak_memory_MB": 354,
+  "solver_time_seconds": 15,
+  "remote_installed_RAM_GB": 32,
+  "remote_logical_processors": 24,
+  "mesh_converged": false,
+  "radiation_validated": false
+}

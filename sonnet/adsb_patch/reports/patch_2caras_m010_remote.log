@@ -1,0 +1,222 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_m010.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preUukqgI.zon'.
+
+JOBN:  4
+JOBI:  1792626775
+Sending project to server
+
+Queued
+Unpacking at server
+Starting to run
+Running
+ST0:  Project: patch_2caras_m010.sonx
+MRUN:  Run 1:  Wed Oct 21 20:52:54 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_2caras_m010.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.7.
+STL2:  Subsectioning circuit.
+QUUP:  0
+MBTM:        Subsectioning time:  1 second.
+MBTM:        ABS setup time:  2 seconds.
+MBTM:        De-embedding setup time:  0 seconds.
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 4,300 MB
+ST2:  Subs: 4,055
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 4,055 subsections and 4,300 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  1,377
+        Surface Conformal:    13
+        Diagonal:             13
+      Level 1:
+        Surface Rectangular:  2,645
+        Via:                  20
+MDTM:  
+      Process memory by type:
+        System matrix:            125 MB
+        Elemental subsections:
+          Primary structure:      182 MB
+        Fourier transform:        3,913 MB
+        Waveguide mode:           78 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    4,300 MB
+
+QUUP:  0
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.09 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Threads:  using 24 thread(s), 24 core(s) available.
+
+MBTM:        Waveguide mode time:  0.445 seconds.
+STL2:  Loading matrix (step 1 of 3)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0

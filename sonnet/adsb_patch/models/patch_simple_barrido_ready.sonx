@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonnetProject Version="21" Type="GEO" xmlns="https://www.sonnetsoftware.com/schema/project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/project https://www.sonnetsoftware.com/schema/project/sonnet_project_file-1.0.xsd">
+    <GlobalTemperature Tnom="25.000"/>
+    <Header>
+        <Created Program="adsb_generator" Version="1.0">
+            <Date>10/19/2026 16:55:36</Date>
+        </Created>
+        <Modified Program="adsb_generator" Version="1.0">
+            <Date>10/19/2026 16:55:36</Date>
+            <Change Importance="MEDIUM">
+                <Date>10/19/2026 16:55:36</Date>
+            </Change>
+            <Change Importance="HIGH">
+                <Date>10/19/2026 16:55:36</Date>
+            </Change>
+        </Modified>
+    </Header>
+    <Units>
+        <Angle>DEG</Angle>
+        <Capacitance>PF</Capacitance>
+        <Conductance>/OH</Conductance>
+        <Conductivity>SM</Conductivity>
+        <Frequency>GHZ</Frequency>
+        <Inductance>NH</Inductance>
+        <Length>MM</Length>
+        <Roughness>UM</Roughness>
+        <Resistance>OH</Resistance>
+        <Resistivity>OHCM</Resistivity>
+        <SheetRes>OHSQ</SheetRes>
+    </Units>
+    <Control>
+        <SweepType>VARSWP</SweepType>
+        <Currents On="TRUE"/>
+        <Precision>DOUBLE</Precision>
+        <SpeedControl>MAX_ACCURACY</SpeedControl>
+        <ABSCacheLevel>MULTI_SWEEP</ABSCacheLevel>
+    </Control>
+    <Geometry YDirection="Negative">
+        <Dielectric MacroID="Air" Name="Air" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity Value="0.0"/>
+            <Eps Value="1.0"/>
+            <Tan Value="0.0"/>
+            <MuRel Value="1.0"/>
+            <MagLossTan Value="0.0"/>
+        </Dielectric>
+        <Dielectric MacroID="substrate" Name="Substrate" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+            <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE"/>
+            <Conductivity Value="0.0"/>
+            <Eps Value="4.6"/>
+            <Tan Value="0.0"/>
+            <MuRel Value="1.0"/>
+            <MagLossTan Value="0.0"/>
+        </Dielectric>
+        <Conductor MacroID="copper" Name="Copper" Conductivity="5.8e7" LossType="CONDUCTIVITY"/>
+        <Conductor MacroID="PerfectConductor" Name="Perfect Conductor" Conductivity="INF" LossType="CONDUCTIVITY"/>
+        <Box>
+            <BoxCover MacroID="top_cover" Type="TOP" MaterialType="FREE_SPACE" Roughness="0.0" Thickness="0.0"/>
+            <BoxCover MacroID="bot_cover" Type="BOTTOM" MaterialType="FREE_SPACE" Roughness="0.0" Thickness="0.0"/>
+            <Size X="1600" Y="1600" Z="80.14150000000001"/>
+            <NumCells X="3200" Y="3200"/>
+            <LocalOrigin X="0" Y="1600"/>
+            <Symmetry On="FALSE"/>
+        </Box>
+        <Level MacroID="lev0" MaterialName="Air" Number="0">
+            <DielectricMaterialModel Thickness="40.0"/>
+            <Objects>
+                <PlanarTechLayer MacroID="cu0" Name="Patch" MaterialName="Copper">
+                    <ColorPattern Color="#b76e28" Pattern="updiag"/>
+                    <PlanarMaterialModel CurrentRatio="0.5" ModelType="THIN_METAL" Thickness="0.035"/>
+                    <RoughnessModel RoughnessOn="FALSE"/>
+                    <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR"/>
+                    <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y"/>
+                    <GLGMeshing GLG="FALSE"/>
+                    <Objects>
+                        <PlanarPolygon MacroID="p0" Id="1">
+                            <Points>(767.400015,766.750035) (833.250035,766.750025) (833.250025,832.600035) (832.600035,833.250035) (766.750035,833.250025)</Points>
+                            <Points>(766.750025,767.400035)</Points>
+                        </PlanarPolygon>
+                    </Objects>
+                </PlanarTechLayer>
+            </Objects>
+        </Level>
+        <Level MacroID="lev1" MaterialName="Substrate" Number="1">
+            <DielectricMaterialModel Thickness="0.1415"/>
+            <Objects>
+                <PlanarTechLayer MacroID="cu1" Name="GND" MaterialName="Copper">
+                    <ColorPattern Color="#338899" Pattern="updiag"/>
+                    <PlanarMaterialModel CurrentRatio="0.5" ModelType="THIN_METAL" Thickness="0.03"/>
+                    <RoughnessModel RoughnessOn="FALSE"/>
+                    <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR"/>
+                    <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y"/>
+                    <GLGMeshing GLG="FALSE"/>
+                    <Objects>
+                        <PlanarPolygon MacroID="p1" Id="2">
+                            <Points>(762.000035,762.000025) (838.000035,762.000025) (838.000035,838.000025) (762.000035,838.000025)</Points>
+                        </PlanarPolygon>
+                    </Objects>
+                </PlanarTechLayer>
+            </Objects>
+        </Level>
+        <Level MacroID="lev2" MaterialName="Air" Number="2">
+            <DielectricMaterialModel Thickness="40.0"/>
+        </Level>
+        <ViaTechLayer MacroID="source_layer" Name="Ideal_excitation" MaterialName="Copper">
+            <ColorPattern Color="#bb44dd" Pattern="updiag"/>
+            <ViaMaterialModel ModelType="VOLUME" Solid="FALSE" Thickness="0.025"/>
+            <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE"/>
+            <GLGMeshing GLG="FALSE"/>
+            <ViaLevels FromLevel="0" FromType="LEVEL" ToLevel="1" ToType="LEVEL"/>
+            <Objects>
+                <ViaPolygon MacroID="source" Id="3">
+                    <Points>(799.5,818.5) (800.5,818.5) (800.5,819.5) (799.5,819.5)</Points>
+                    <Objects>
+                        <Port MacroID="port1" Number="1" Vertex="0">
+                            <Type Type="VIA"/>
+                            <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0"/>
+                            <Center>(800,818.5)</Center>
+                        </Port>
+                    </Objects>
+                </ViaPolygon>
+            </Objects>
+        </ViaTechLayer>
+    </Geometry>
+    <Sweeps SweepVariables="FALSE">
+        <Set MacroID="sweep" On="TRUE">
+            <Frequencies>
+                <Sweep MacroID="f1090" Type="STEP" On="TRUE" Adaptive="FALSE" Start="1.09"/>
+                <Sweep MacroID="band" Type="ABS_ENTRY" On="TRUE" Adaptive="TRUE" Start="0.8" Stop="1.4" Target="300"/>
+            </Frequencies>
+        </Set>
+    </Sweeps>
+    <OutputFiles Folder=".">
+        <Files>
+            <File MacroID="s11" Type="TOUCH" Name="$BASENAME.s1p" UseInterpolatedData="TRUE" IncludeComments="TRUE" Precision="15" Parameter="S" Format="RI">
+                <Terminations Type="STD" Single="TRUE">
+                    <Port Rp="50" Xp="0" Lp="0" Cp="0"/>
+                </Terminations>
+            </File>
+        </Files>
+    </OutputFiles>
+</SonnetProject>

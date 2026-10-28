@@ -1,0 +1,41 @@
+{
+  "F.Cu": {
+    "symmetric_difference_mm2": 1.6554652893031727e-05,
+    "pass": true
+  },
+  "In1.Cu": {
+    "symmetric_difference_mm2": 1.367896854339342e-07,
+    "pass": true
+  },
+  "In2.Cu": {
+    "symmetric_difference_mm2": 5.9223742758019016e-06,
+    "pass": true
+  },
+  "B.Cu": {
+    "symmetric_difference_mm2": 1.0098217539216276e-05,
+    "pass": true
+  },
+  "port_numbers": {
+    "pass": true
+  },
+  "impedance_50ohm": {
+    "pass": true
+  },
+  "floating_ground": {
+    "pass": true
+  },
+  "open_covers": {
+    "pass": true
+  },
+  "deembedding_off": {
+    "pass": true
+  },
+  "barrel_count": {
+    "actual": 92,
+    "pass": true
+  },
+  "hollow_barrels": {
+    "pass": true
+  },
+  "passes_all": true
+}

@@ -1,0 +1,91 @@
+{
+  "source": "source/gerber/ads-b-job.gbrjob",
+  "layers": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.109,
+      "Material": "JLC2116",
+      "DielectricConstant": "4,6",
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 1.23,
+      "Material": "JLC Core",
+      "DielectricConstant": "4,6",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.109,
+      "Material": "JLC2116",
+      "DielectricConstant": "4,4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ],
+  "nominal_total_mm": 1.598,
+  "dielectric_tan_delta": 0.0,
+  "tan_delta_status": "KiCad declares zero: lossless baseline, NOT verified physical loss",
+  "copper_conductivity_S_m": 58000000.0,
+  "copper_status": "bulk smooth copper assumption; not a foil certificate",
+  "via_plating_mm": 0.025,
+  "via_plating_status": "ASSUMPTION; absent from KiCad and drill files",
+  "soldermask_model": "omitted: dielectric properties unavailable",
+  "finite_substrate_model": "Sonnet uniform dielectric extends to box walls"
+}

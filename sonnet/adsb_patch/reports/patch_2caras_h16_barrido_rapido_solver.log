@@ -1,0 +1,44 @@
+
+               ELECTROMAGNETIC ANALYSIS OF 3-D PLANAR CIRCUITS
+                              Version 19.54.2026
+
+                Copyright (c) 1986-2026 Sonnet Software Inc.
+                             All rights reserved.
+
+Run 1:  Wed Oct 21 23:44:26 2026.  unlam2.1.89766.
+        Em version 19.54.2026 (64-bit LNX-86) on alan-beam local.
+
+  Project:  /home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_barrido_rapido.sonx.
+
+    Computer operating system:  Ubuntu 22.04.5 LTS
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0.8, Stop = 1.4 GHz
+
+    Frequency:  0.8 GHz
+      Subsectioning time:  0 seconds.
+      ABS setup time:  1 second.
+      De-embedding setup time:  0 seconds.
+      Circuit requires 6,680 subsections and 448 MB of memory.
+      Threads:  using 4 thread(s), 4 core(s) available.
+
+      Waveguide mode time:  1 second.
+      Matrix fill time:  2 minutes 21 seconds.
+      Matrix solve time:  17 seconds.
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      0.80000000 0.994070 163.29
+      Total time per frequency:  2 minutes 39 seconds.
+
+    Frequency:  1.4 GHz
+      Waveguide mode time:  0 seconds.
+      Matrix fill time:  2 minutes 15 seconds.
+      Matrix solve time:  19 seconds.
+      1.40000000 0.989306 161.05
+      Total time per frequency:  2 minutes 34 seconds.
+      ABS: SNR = 74.2231 dB (102.991 dB Goal) for S1_1 at 1.1 GHz.
+      ABS: Time = 0 seconds.
+
+    Frequency:  1.1 GHz
+      Waveguide mode time:  0 seconds.

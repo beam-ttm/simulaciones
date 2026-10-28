@@ -1,0 +1,391 @@
+Detected locale "C" with character encoding "ANSI_X3.4-1968", which is not UTF-8.
+Qt depends on a UTF-8 locale, and has switched to "C.UTF-8" instead.
+If this causes problems, reconfigure your locale. See the locale(1) manual
+for more information.
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_h16_er416.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preqiZUHH.zon'.
+
+JOBN:  7
+JOBI:  1792638798
+Sending project to server
+
+Queued
+Unpacking at server
+Starting to run
+Running
+ST0:  Project: patch_h16_er416.sonx
+MRUN:  Run 1:  Thu Oct 22 00:13:14 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_h16_er416.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.4 GHz with Eeff of 2.58.
+STL2:  Subsectioning circuit.
+MBTM:        Subsectioning time:  0.907 seconds.
+MBTM:        ABS setup time:  2 seconds.
+MBTM:        De-embedding setup time:  0 seconds.
+QUUP:  0
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 448 MB
+ST2:  Subs: 6,680
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 6,680 subsections and 448 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0a:
+        Surface Rectangular:  1,278
+      Level 0b:
+        Surface Rectangular:  1,278
+        Via:                  105
+      Level 1:
+        Surface Rectangular:  2,482
+        Via:                  8
+      Level 2a:
+        Surface Rectangular:  1,341
+        Via:                  188
+MDTM:  
+      Process memory by type:
+        System matrix:            340 MB
+        Elemental subsections:
+          Primary structure:      57 MB
+        Fourier transform:        40 MB
+        Waveguide mode:           11 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    448 MB
+
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.09 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Threads:  using 24 thread(s), 24 core(s) available.
+
+MBTM:        Waveguide mode time:  0.064 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.060 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:13:48 2026.
+LSPR:  
+    Frequency:  1.09 GHz
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.159111 -7.213
+LCMP:  
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.159111 -7.213
+FTM:        Previous Frequency Time:  30 sec.
+MBTM:        Total time per frequency:  30 seconds.
+COM:  Frequencies:  1 Complete
+PCT:  9
+COM:  Frequencies:  1 Complete
+PCT:  9
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0.8, Stop = 1.4 GHz
+STL1:  0.8 GHz Analyzing primary
+MBTM:  
+    Frequency:  0.8 GHz
+      Waveguide mode time:  0.058 seconds.
+STL2:  Loading matrix (step 1 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+QUUP:  0
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.061 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:14:15 2026.
+LSPR:  
+    Frequency:  0.8 GHz
+      0.80000000 0.995396 163.96
+LCMP:        0.80000000 0.995396 163.96
+FTM:        Previous Frequency Time:  27 sec.
+MBTM:        Total time per frequency:  27 seconds.
+COM:  Frequencies:  2 Complete
+PCT:  18
+STL1:  1.4 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.4 GHz
+      Waveguide mode time:  0.068 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.061 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:14:43 2026.
+LSPR:  
+    Frequency:  1.4 GHz
+      1.40000000 0.989352 162.33
+LCMP:        1.40000000 0.989352 162.33
+FTM:        Previous Frequency Time:  27 sec.
+MBTM:        Total time per frequency:  27 seconds.
+COM:  Frequencies:  3 Complete
+PCT:  27
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = -2.77273 dB (50 dB Goal) for S1_1 at 1.106 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  1.106 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.106 GHz
+      Waveguide mode time:  0.061 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.062 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:15:11 2026.
+LSPR:  
+    Frequency:  1.106 GHz
+      1.10600000 0.469236 -117.9
+LCMP:        1.10600000 0.469236 -117.9
+FTM:        Previous Frequency Time:  28 sec.
+MBTM:        Total time per frequency:  28 seconds.
+COM:  Frequencies:  4 Complete
+PCT:  36
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 40.9798 dB (50 dB Goal) for S1_1 at 1.044 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  1.044 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.044 GHz
+      Waveguide mode time:  0.060 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.060 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:15:39 2026.
+LSPR:  
+    Frequency:  1.044 GHz
+      1.04400000 0.856760 126.12
+LCMP:        1.04400000 0.856760 126.12
+FTM:        Previous Frequency Time:  28 sec.
+MBTM:        Total time per frequency:  28 seconds.
+COM:  Frequencies:  5 Complete
+PCT:  45
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: Gap. 1.252 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  1.252 GHz Analyzing primary
+MBTM:  
+    Frequency:  1.252 GHz
+      Waveguide mode time:  0.064 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 6 of 10)
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 10 of 10)
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.060 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:16:07 2026.
+LSPR:  
+    Frequency:  1.252 GHz
+      1.25200000 0.975734 171.88
+LCMP:        1.25200000 0.975734 171.88
+FTM:        Previous Frequency Time:  28 sec.
+MBTM:        Total time per frequency:  28 seconds.
+COM:  Frequencies:  6 Complete
+PCT:  55
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: Gap. 0.922 GHz.
+MBTM:        ABS: Time = 0.006 seconds.
+STL1:  
+STL2:  
+STL1:  0.922 GHz Analyzing primary
+MBTM:  
+    Frequency:  0.922 GHz
+      Waveguide mode time:  0.058 seconds.
+STL2:  Loading matrix (step 1 of 10)
+STL2:  Loading matrix (step 2 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 3 of 10)
+STL2:  Loading matrix (step 4 of 10)
+STL2:  Loading matrix (step 5 of 10)
+STL2:  Loading matrix (step 6 of 10)
+QUUP:  0
+STL2:  Loading matrix (step 7 of 10)
+STL2:  Loading matrix (step 8 of 10)
+STL2:  Loading matrix (step 9 of 10)
+STL2:  Loading matrix (step 10 of 10)
+QUUP:  0
+MDTM:        Fourier transform time:  10 seconds.
+MDTM:        Coupling time:  11 seconds.
+MDTM:        Loss time:  0.059 seconds.
+MBTM:        Matrix fill time:  22 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00187524,0.00187524,1600,1600,3,1,6379,301,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  5 seconds.
+MDTM:        Frequency completed Thu Oct 22 00:16:35 2026.
+LSPR:  
+    Frequency:  0.922 GHz
+      0.92200000 0.987645 156.12
+LCMP:        0.92200000 0.987645 156.12
+FTM:        Previous Frequency Time:  28 sec.
+MBTM:        Total time per frequency:  28 seconds.
+COM:  Frequencies:  7 Complete
+PCT:  64
+STL1:  Adaptive Band Synthesis
+STL2:  Adaptively computing 301 frequencies
+MBTM:        ABS: SNR = 117.735 dB (40.154 dB Goal) for S1_1 at 1.346 GHz.
+MBTM:        ABS: Time = 0.007 seconds.
+STL1:  
+STL2:  
+STL2:  Storing adaptive results
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+COM:  Frequencies:  7 Discrete (301 Adaptive)
+PCT:  100
+PCT:  100
+MBTM:  
+    Post-Analysis information for em run 1:
+      Peak memory usage:  656 MB.
+      Total time for 7 frequencies:  3 minutes 21 seconds.
+STL1:  
+MRUN:        Em errors detected: 0    Em warnings detected: 0.
+STL2:  Transferring Auto Documentation data.
+STL2:  Writing Auto Documentation data.
+STL2:  Transferring remote server files.
+STL2:  Remote em simulation completed Thu Oct 22 00:16:35 2026
+MRUN:  
+Remote em simulation completed Thu Oct 22 00:16:35 2026.
+Analysis finished on the server
+Packing at server
+Packed at server
+Copying to client
+Job completed
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_h16_er416.sonx'.
+Completing JXY files.
+Post-processing jxy data.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Finished
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Finished
+Emclient completed successfully

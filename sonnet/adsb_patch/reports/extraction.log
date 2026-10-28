@@ -1,0 +1,5 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+15:24:43: Font 'Poppins' not found; substituting 'DejaVu Sans Bold'.
+Extracted {'F.Cu': 6, 'In1.Cu': 6, 'In2.Cu': 7, 'B.Cu': 114}

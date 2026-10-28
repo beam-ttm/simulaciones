@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/for altium/Library.kicad_sym") (options "") (descr ""))
+	(lib (name "PE4259") (type "KiCad") (uri "${KIPRJMOD}/Components/PE4259/PE4259.kicad_sym") (options "") (descr ""))
+	(lib (name "LC76G") (type "KiCad") (uri "${KIPRJMOD}/Components/LC76G/LC76G.kicad_sym") (options "") (descr ""))
+)

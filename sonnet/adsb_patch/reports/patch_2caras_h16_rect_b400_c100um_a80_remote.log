@@ -1,0 +1,43 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_h16_rect_b400_c100um_a80.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preCgaoir.zon'.
+
+JOBN:  11
+JOBI:  1792628861
+Sending project to server
+
+Queued
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+QUUP:  2
+STL2:  Analysis terminated at server by admin.
+Job deleted at server by admin
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_2caras_h16_rect_b400_c100um_a80.sonx'.
+Completing JXY files.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Stopped
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Stopped
+Emclient completed successfully

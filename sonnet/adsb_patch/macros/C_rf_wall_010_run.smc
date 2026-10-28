@@ -1,0 +1,6 @@
+add project id=adsb template="../models/C_rf_wall_010.sonx"
+add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+save path="../models/C_rf_wall_010_ready.sonx"
+verify_project
+get num_ports
+analyze

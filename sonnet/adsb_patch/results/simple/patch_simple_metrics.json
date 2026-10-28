@@ -1,0 +1,13 @@
+{
+  "source": "sonnet/patch_simple.s1p",
+  "z0_ohm": 50.0,
+  "minimum_S11_frequency_Hz": 1090000000.0,
+  "minimum_S11_dB": -0.10179495784783696,
+  "note": "S11 minimum is a match minimum; inspect Zin/current modes before identifying resonance.",
+  "at_1090MHz": {
+    "return_loss_dB": 0.10179495784783696,
+    "VSWR": 170.65656762647237,
+    "Zin_real_ohm": 0.2932286434466199,
+    "Zin_imag_ohm": -1.4386173549273817
+  }
+}

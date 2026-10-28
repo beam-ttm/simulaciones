@@ -1,0 +1,12 @@
+{
+  "source_hashes_match": true,
+  "active_patch_matches_verified_model": true,
+  "original_template_preserved": true,
+  "native_prepared_and_xml_verified_cases": 11,
+  "gerber_copper_tolerance_um": 2,
+  "outline_matches": true,
+  "matched_vias": 88,
+  "matched_plated_mounting_holes": 4,
+  "solver_completed": false,
+  "reason": "license server connection refused"
+}

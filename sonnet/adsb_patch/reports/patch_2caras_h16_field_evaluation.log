@@ -1,0 +1,63 @@
+/home/alan/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+/home/alan/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+{
+  "source": "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_h16_rect_b400_c100um.s1p",
+  "z0_ohm": 50.0,
+  "minimum_S11_frequency_Hz": 1090000000.0,
+  "minimum_S11_dB": -3.440800916845615,
+  "note": "S11 minimum is a match minimum; inspect Zin/current modes before identifying resonance.",
+  "at_1090MHz": {
+    "return_loss_dB": 3.440800916845615,
+    "VSWR": 5.114611133798603,
+    "Zin_real_ohm": 10.562554985654742,
+    "Zin_imag_ohm": -13.887373070587529
+  }
+}
+{
+  "frequency_Hz": 1090000000.0,
+  "metrics": [
+    {
+      "case": "patch_2caras_h16_rect_b400_c100um",
+      "frequency_Hz": 1090000000.0,
+      "S11": {
+        "frequency_Hz": 1090000000.0,
+        "S11_real": -0.568700864052,
+        "S11_imag": -0.359712930546,
+        "S11_dB": -3.440800916845615,
+        "return_loss_dB": 3.440800916845615,
+        "VSWR": 5.114611133798603,
+        "Zin_real_ohm": 10.562554985654742,
+        "Zin_imag_ohm": -13.887373070587529
+      },
+      "gain_boresight_dB": -2.06835886090566,
+      "maximum_gain_in_two_cuts_dB": -2.06835886090566,
+      "AR_boresight_dB_from_circular_components": {
+        "0": 50.962878298589935,
+        "90": 50.96287829859146
+      },
+      "normalized_circular_imbalance": {
+        "0": -0.005660862437844406,
+        "90": -0.005660862437843429
+      },
+      "native_AR_display_limit_dB": 40,
+      "native_field_csv": "simulations/sonnet/adsb_patch/results/patch_2caras_h16/patch_2caras_h16_rect_b400_c100um_campo.csv"
+    }
+  ],
+  "comparisons": [],
+  "tolerances": {
+    "S11_dB": 0.1,
+    "complex_gamma": 0.005,
+    "Zin_ohm": 1,
+    "gain_dB": 0.2,
+    "circular_imbalance": 0.02,
+    "AR_dB_when_below_10": 0.2
+  },
+  "limitations": [
+    "single frequency",
+    "infinite lateral dielectric slab",
+    "FR4 epsilon from CAD and loss tangent assumed",
+    "probe diameter assumed"
+  ]
+}

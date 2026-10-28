@@ -1,0 +1,26 @@
+{
+  "case": "patch_2caras_h16_rect_b400_c100um",
+  "frequency_Hz": 1090000000.0,
+  "S11": {
+    "frequency_Hz": 1090000000.0,
+    "S11_real": -0.568700864052,
+    "S11_imag": -0.359712930546,
+    "S11_dB": -3.440800916845615,
+    "return_loss_dB": 3.440800916845615,
+    "VSWR": 5.114611133798603,
+    "Zin_real_ohm": 10.562554985654742,
+    "Zin_imag_ohm": -13.887373070587529
+  },
+  "gain_boresight_dB": -2.06835886090566,
+  "maximum_gain_in_two_cuts_dB": -2.06835886090566,
+  "AR_boresight_dB_from_circular_components": {
+    "0": 50.962878298589935,
+    "90": 50.96287829859146
+  },
+  "normalized_circular_imbalance": {
+    "0": -0.005660862437844406,
+    "90": -0.005660862437843429
+  },
+  "native_AR_display_limit_dB": 40,
+  "native_field_csv": "simulations/sonnet/adsb_patch/results/patch_2caras_h16/patch_2caras_h16_rect_b400_c100um_campo.csv"
+}

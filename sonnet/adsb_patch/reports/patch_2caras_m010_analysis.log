@@ -1,0 +1,33 @@
+Reading patch_2caras_m010_run.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=two template="/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m010.sonx"
+
+
+New project two
+
+	template: "/home/alan/Escritorio/CubeSat/sonnet/patch_2caras_m010.sonx"
+
+
+> Line 2: verify_project
+
+
+Verifying project two
+
+Verify passed
+
+
+> Line 3: analyze server=10.16.100.159:56150
+
+
+Analyzing project two
+
+on server 10.16.100.159:56150
+
+Processing macro patch_2caras_m010_run.smc completed.
+

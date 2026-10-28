@@ -1,0 +1,137 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_simple.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preQEuDYy.zon'.
+
+JOBN:  3
+JOBI:  1792438644
+Sending project to server
+
+Queued
+Unpacking at server
+QUUP:  0
+Starting to run
+Running
+ST0:  Project: patch_simple.sonx
+MRUN:  Run 1:  Mon Oct 19 16:37:24 2026.  .
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_simple.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.8.
+STL2:  Subsectioning circuit.
+MBTM:        Subsectioning time:  0.075 seconds.
+MBTM:        ABS setup time:  0.185 seconds.
+MBTM:        De-embedding setup time:  0 seconds.
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 234 MB
+ST2:  Subs: 2,241
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 2,241 subsections and 234 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Rectangular:  709
+      Level 1:
+        Surface Rectangular:  1,528
+        Via:                  4
+MDTM:  
+      Process memory by type:
+        System matrix:            38 MB
+        Elemental subsections:
+          Primary structure:      7 MB
+        Fourier transform:        158 MB
+        Waveguide mode:           31 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    234 MB
+
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.09 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Threads:  using 24 thread(s), 24 core(s) available.
+
+MBTM:        Waveguide mode time:  0.168 seconds.
+STL2:  Loading matrix (step 1 of 3)
+STL2:  Loading matrix (step 2 of 3)
+QUUP:  0
+STL2:  Loading matrix (step 3 of 3)
+MDTM:        Fourier transform time:  12 seconds.
+MDTM:        Coupling time:  0.397 seconds.
+MDTM:        Loss time:  0.016 seconds.
+MBTM:        Matrix fill time:  12 seconds.
+STL2:  Reducing matrix
+AILOG:  0.00304197,0.00304197,3200,3200,3,1,2237,4,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  0.329 seconds.
+MDTM:        Frequency completed Mon Oct 19 16:37:40 2026.
+LSPR:  
+    Frequency:  1.09 GHz
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.988349 -176.7
+LCMP:  
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.988349 -176.7
+Analysis finished on the server
+MBTM:        Total time per frequency:  15 seconds.
+COM:  Frequencies:  1 Complete
+PCT:  100
+COM:  Frequencies:  1 Complete
+PCT:  100
+PCT:  100
+MBTM:  
+    Post-Analysis information for em run 1:
+      Peak memory usage:  354 MB.
+      Total time for 1 frequency:  15 seconds.
+STL1:  
+MRUN:        Em errors detected: 0    Em warnings detected: 0.
+STL2:  Transferring Auto Documentation data.
+STL2:  Writing Auto Documentation data.
+STL2:  Transferring remote server files.
+STL2:  Remote em simulation completed Mon Oct 19 16:37:40 2026
+MRUN:  
+Remote em simulation completed Mon Oct 19 16:37:40 2026.
+Packing at server
+Packed at server
+Copying to client
+Job completed
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_simple.sonx'.
+Completing JXY files.
+Post-processing jxy data.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Finished
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Finished
+Emclient completed successfully

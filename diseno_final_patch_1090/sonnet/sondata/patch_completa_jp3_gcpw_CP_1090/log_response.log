@@ -1,0 +1,39 @@
+Run 1:  Thu Oct 22 09:10:23 2026.  .
+        Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 local.
+
+  Project:  C:\Users\Desarrollo2\sonnet_run\patch_completa_jp3_gcpw_CP_1090.sonx.
+
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+
+    Frequency:  1.09 GHz
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.043838 174.45
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 1, Stop = 1.18 GHz
+
+    Frequency:  1 GHz
+      1.00000000 0.928638 121.81
+
+    Frequency:  1.18 GHz
+      1.18000000 0.902836 167.99
+
+    Frequency:  1.087 GHz
+      1.08700000 0.023743 113.58
+
+    Frequency:  1.165 GHz
+      1.16500000 0.871046 173.63
+
+    Frequency:  1.105 GHz
+      1.10500000 0.236637 -133.5
+
+    Frequency:  1.043 GHz
+      1.04300000 0.778156 98.663
+
+    Frequency:  1.135 GHz
+      1.13500000 0.723766 -167.6
+
+Em simulation completed Thu Oct 22 09:21:51 2026.

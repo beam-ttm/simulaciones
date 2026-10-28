@@ -1,0 +1,5 @@
+add project id=adsb template="../models/B_no_rf_barrel.sonx"
+add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+save path="../models/B_no_rf_barrel_ready.sonx"
+verify_project
+get num_ports

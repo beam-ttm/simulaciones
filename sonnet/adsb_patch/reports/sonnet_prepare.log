@@ -1,0 +1,39 @@
+Reading ../macros/A_real_prepare.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=adsb template="../models/A_real.sonx"
+
+
+New project adsb
+
+	template: "../models/A_real.sonx"
+
+
+> Line 2: add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+
+
+Adding output file "$BASENAME.s1p" to project adsb
+
+
+> Line 3: save path="../models/A_real_ready.sonx"
+
+
+Saving project adsb as "../models/A_real_ready.sonx"
+
+
+> Line 4: verify_project
+
+
+Verifying project adsb
+
+Verify passed
+
+{"Ports":1}
+
+Processing macro ../macros/A_real_prepare.smc completed.
+

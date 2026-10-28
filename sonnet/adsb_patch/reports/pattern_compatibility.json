@@ -1,0 +1,100 @@
+{
+  "pattern_registry": "/home/alan/sonnet19/resource/patterns/pattern.dat",
+  "replacement": "solid -> updiag",
+  "checked_projects": 24,
+  "updated": [
+    {
+      "file": "sonnet/patch.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/A_real.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/A_real_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/B_no_rf_barrel.sonx",
+      "replacements": 95
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/B_no_rf_barrel_ready.sonx",
+      "replacements": 95
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_010.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_010_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_035.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/C_rf_wall_035_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_30mm.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_30mm_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_50mm.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/air_50mm_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2000mm.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2000mm_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2400mm.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/box_2400mm_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/loss_assumed_016.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/loss_assumed_016_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_025um.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_025um_ready.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_100um.sonx",
+      "replacements": 96
+    },
+    {
+      "file": "simulations/sonnet/adsb_patch/models/mesh_100um_ready.sonx",
+      "replacements": 96
+    }
+  ],
+  "all_patterns_registered": true
+}

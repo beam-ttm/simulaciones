@@ -1,0 +1,337 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_h16_rect_b1638.4_c100um.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_predsNKdp.zon'.
+
+JOBN:  12
+JOBI:  1792628990
+Sending project to server
+
+Queued
+Unpacking at server
+Starting to run
+Running
+ST0:  Project: patch_2caras_h16_rect_b1638.4_c100um.sonx
+MRUN:  Run 1:  Wed Oct 21 21:29:41 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_2caras_h16_rect_b1638.4_c100um.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.7.
+STL2:  Subsectioning circuit.
+MBTM:        Subsectioning time:  2 seconds.
+QUUP:  0
+MBTM:        ABS setup time:  5 seconds.
+QUUP:  0
+MBTM:        De-embedding setup time:  0 seconds.
+STL2:  Initializing license manager.
+STL2:  Waiting for em license.
+STL2:  Em license checked out.
+MDTM:        Em license feature:  embeowulf.
+
+ST1:  Memory: 5,243 MB
+ST2:  Subs: 9,322
+ST3:  CM Cells: N/A
+MBTM:        Circuit requires 9,322 subsections and 5,243 MB of memory.
+MDTM:  
+      Primary structure subsections by level and type:
+      Level 0a:
+        Surface Rectangular:  1,725
+      Level 0b:
+        Surface Rectangular:  1,725
+        Via:                  131
+      Level 1:
+        Surface Rectangular:  3,788
+        Via:                  20
+      Level 2a:
+        Surface Rectangular:  1,704
+        Via:                  229
+MDTM:  
+      Process memory by type:
+        System matrix:            663 MB
+        Elemental subsections:
+          Primary structure:      365 MB
+        Fourier transform:        4,103 MB
+        Waveguide mode:           112 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    5,243 MB
+
+MDTM:        Amount of RAM installed on host computer:  32 GB
+MDTM:        Number of logical processors:  24
+STL1:  1.09 GHz Analyzing primary
+MDTM:        Matrix solver:  internal 64-bit AVX with loss.
+MDTM:        Simulation mode:  remote em transfer.
+ST4:  Threads: 24/24
+MBTM:        Threads:  using 24 thread(s), 24 core(s) available.
+
+MBTM:        Waveguide mode time:  0.753 seconds.
+STL2:  Loading matrix (step 1 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 2 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 3 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 4 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 5 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 6 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 7 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 8 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 9 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+STL2:  Loading matrix (step 10 of 10)
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+MDTM:        Fourier transform time:  28 minutes 45 seconds.
+MDTM:        Coupling time:  1 minute 54 seconds.
+MDTM:        Loss time:  0.120 seconds.
+MBTM:        Matrix fill time:  30 minutes 48 seconds.
+STL2:  Reducing matrix
+QUUP:  0
+AILOG:  0.000597431,0.000597431,16384,16384,3,1,8942,380,0,0,0,0,NA,0.0,0.0
+MBTM:        Matrix solve time:  14 seconds.
+MDTM:        Frequency completed Wed Oct 21 22:01:04 2026.
+LSPR:  
+    Frequency:  1.09 GHz
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.673290 -147.7
+LCMP:  
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.673290 -147.7
+MBTM:        Total time per frequency:  31 minutes 15 seconds.
+COM:  Frequencies:  1 Complete
+PCT:  100
+COM:  Frequencies:  1 Complete
+PCT:  100
+PCT:  100
+MBTM:  
+    Post-Analysis information for em run 1:
+      Peak memory usage:  9,479 MB.
+      Total time for 1 frequency:  31 minutes 23 seconds.
+STL1:  
+MRUN:        Em errors detected: 0    Em warnings detected: 0.
+STL2:  Transferring Auto Documentation data.
+STL2:  Writing Auto Documentation data.
+STL2:  Transferring remote server files.
+STL2:  Remote em simulation completed Wed Oct 21 22:01:04 2026
+MRUN:  
+Remote em simulation completed Wed Oct 21 22:01:04 2026.
+Analysis finished on the server
+Packing at server
+QUUP:  0
+Packed at server
+Copying to client
+Job completed
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_2caras_h16_rect_b1638.4_c100um.sonx'.
+Completing JXY files.
+Post-processing jxy data.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Finished
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Finished
+Emclient completed successfully

@@ -1,0 +1,98 @@
+{
+  "frequency_Hz": 1090000000.0,
+  "metrics": [
+    {
+      "case": "patch_2caras_h16_rect_b1638.4_c100um",
+      "frequency_Hz": 1090000000.0,
+      "S11": {
+        "frequency_Hz": 1090000000.0,
+        "S11_real": -0.568895144267,
+        "S11_imag": -0.360107622907,
+        "S11_dB": -3.4359590046417403,
+        "return_loss_dB": 3.4359590046417403,
+        "VSWR": 5.121633602144371,
+        "Zin_real_ohm": 10.549164755206556,
+        "Zin_imag_ohm": -13.897815841089136
+      },
+      "gain_boresight_dB": -2.08794774494923,
+      "maximum_gain_in_two_cuts_dB": -2.08794774494923,
+      "AR_boresight_dB_from_circular_components": {
+        "0": 50.970905425589365,
+        "90": 50.970905425589365
+      },
+      "normalized_circular_imbalance": {
+        "0": -0.005655633411656959,
+        "90": -0.005655633411656959
+      },
+      "native_AR_display_limit_dB": 40,
+      "native_field_csv": "simulations/sonnet/adsb_patch/results/patch_2caras_h16/patch_2caras_h16_rect_b1638.4_c100um_campo.csv",
+      "native_sphere_csv": "simulations/sonnet/adsb_patch/results/patch_2caras_h16/patch_2caras_h16_rect_b1638.4_c100um_esfera.csv"
+    },
+    {
+      "case": "patch_2caras_h16_rect_b1228.8_c100um_local",
+      "frequency_Hz": 1090000000.0,
+      "S11": {
+        "frequency_Hz": 1090000000.0,
+        "S11_real": -0.568895073187,
+        "S11_imag": -0.360107620829,
+        "S11_dB": -3.435959793780178,
+        "return_loss_dB": 3.435959793780178,
+        "VSWR": 5.1216324559836846,
+        "Zin_real_ohm": 10.549167258824852,
+        "Zin_imag_ohm": -13.897816965197206
+      }
+    },
+    {
+      "case": "patch_2caras_h16_rect_b400_c100um",
+      "frequency_Hz": 1090000000.0,
+      "S11": {
+        "frequency_Hz": 1090000000.0,
+        "S11_real": -0.568700864052,
+        "S11_imag": -0.359712930546,
+        "S11_dB": -3.440800916845615,
+        "return_loss_dB": 3.440800916845615,
+        "VSWR": 5.114611133798603,
+        "Zin_real_ohm": 10.562554985654742,
+        "Zin_imag_ohm": -13.887373070587529
+      },
+      "gain_boresight_dB": -2.06835886090566,
+      "maximum_gain_in_two_cuts_dB": -2.06835886090566,
+      "AR_boresight_dB_from_circular_components": {
+        "0": 50.962878298589935,
+        "90": 50.96287829859146
+      },
+      "normalized_circular_imbalance": {
+        "0": -0.005660862437844406,
+        "90": -0.005660862437843429
+      },
+      "native_AR_display_limit_dB": 40,
+      "native_field_csv": "simulations/sonnet/adsb_patch/results/patch_2caras_h16/patch_2caras_h16_rect_b400_c100um_campo.csv"
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "b1638.4_vs_b400",
+      "cases": [
+        "patch_2caras_h16_rect_b1638.4_c100um",
+        "patch_2caras_h16_rect_b400_c100um"
+      ],
+      "delta_S11_dB": 0.004841912203874532,
+      "delta_complex_gamma": 0.00043991688052652604,
+      "delta_Zin_ohm": 0.016980863558864117,
+      "max_delta_gain_theta_pm60_two_cuts_dB": 0.029408272760370835,
+      "max_delta_gain_sphere_above_peak_minus_20dB": null,
+      "delta_normalized_circular_imbalance": 5.229026187447e-06,
+      "delta_AR_boresight_dB": 0.008027126999429868,
+      "within_selected_tolerances": true,
+      "scope": "1090 MHz only; power pattern above peak minus 20 dB, two phi cuts and polarization at theta=0. AR tolerance applied when either AR<10 dB; otherwise circular imbalance is used."
+    }
+  ],
+  "sphere_b1638.4": {
+    "sphere_samples": 2664,
+    "maximum_gain_full_sphere_dB": -2.08794774494922,
+    "peak_theta_deg": 0,
+    "peak_phi_deg": 310,
+    "front_back_boresight_dB": 5.62775036696869
+  },
+  "state": "box_convergence_verified_100um"
+}

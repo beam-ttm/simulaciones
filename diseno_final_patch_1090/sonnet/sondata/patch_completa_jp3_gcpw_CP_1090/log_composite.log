@@ -1,0 +1,168 @@
+Run 1:  Thu Oct 22 09:10:23 2026.  .
+        Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 local.
+
+  Project:  C:\Users\Desarrollo2\sonnet_run\patch_completa_jp3_gcpw_CP_1090.sonx.
+    Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+
+    Frequency:  1.09 GHz
+      Subsectioning at 1.18 GHz with Eeff of 4.38.
+      Subsectioning time:  1 second.
+      ABS setup time:  20 seconds.
+      De-embedding setup time:  0 seconds.
+      Em license feature:  embeowulf.
+
+      Circuit requires 12,590 subsections and 1,338 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0a:
+        Surface Rectangular:  1,638
+      Level 0b:
+        Surface Rectangular:  1,638
+        Via:                  139
+      Level 1:
+        Surface Rectangular:  4
+        Via:                  4
+      Level 2:
+        Surface Rectangular:  3,908
+        Via:                  4
+      Level 3a:
+        Surface Rectangular:  3,908
+        Via:                  458
+      Level 3b:
+        Surface Rectangular:  368
+        Via:                  20
+      Level 4a:
+        Surface Rectangular:  368
+        Via:                  133
+
+      Process memory by type:
+        System matrix:            1,209 MB
+        Elemental subsections:
+          Primary structure:      73 MB
+        Fourier transform:        40 MB
+        Waveguide mode:           15 MB
+        Adaptive band synthesis:  0 MB
+        Beowulf data:             0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    1,338 MB
+
+      Amount of RAM installed on host computer:  32 GB
+      Number of logical processors:  24
+      Matrix solver:  internal 64-bit AVX with loss.
+      Simulation mode:  local machine.
+      Threads:  using 24 thread(s), 24 core(s) available.
+
+      Waveguide mode time:  0.309 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  20 seconds.
+      Loss time:  0.560 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:12:17 2026.
+
+      Non-de-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      1.09000000 0.043838 174.45
+      Total time per frequency:  1 minute 31 seconds.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 1, Stop = 1.18 GHz
+
+    Frequency:  1 GHz
+      Waveguide mode time:  0.180 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.323 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:13:38 2026.
+      1.00000000 0.928638 121.81
+      Total time per frequency:  1 minute 21 seconds.
+
+    Frequency:  1.18 GHz
+      Waveguide mode time:  0.297 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.569 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:15:00 2026.
+      1.18000000 0.902836 167.99
+      Total time per frequency:  1 minute 22 seconds.
+      ABS: SNR = 14.6039 dB (50 dB Goal) for S1_1 at 1.087 GHz.
+      ABS: Time = 0.205 seconds.
+
+    Frequency:  1.087 GHz
+      Waveguide mode time:  0.184 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.553 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:16:22 2026.
+      1.08700000 0.023743 113.58
+      Total time per frequency:  1 minute 21 seconds.
+      ABS: SNR = 18.3456 dB (50 dB Goal) for S1_1 at 1.165 GHz.
+      ABS: Time = 0.301 seconds.
+
+    Frequency:  1.165 GHz
+      Waveguide mode time:  0.298 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.538 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:17:44 2026.
+      1.16500000 0.871046 173.63
+      Total time per frequency:  1 minute 22 seconds.
+      ABS: SNR = 25.0349 dB (50 dB Goal) for S1_1 at 1.105 GHz.
+      ABS: Time = 0.263 seconds.
+
+    Frequency:  1.105 GHz
+      Waveguide mode time:  0.295 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.318 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  24 seconds.
+      Frequency completed Thu Oct 22 09:19:07 2026.
+      1.10500000 0.236637 -133.5
+      Total time per frequency:  1 minute 22 seconds.
+      ABS: Gap. 1.043 GHz.
+      ABS: Time = 0.195 seconds.
+
+    Frequency:  1.043 GHz
+      Waveguide mode time:  0.186 seconds.
+      Fourier transform time:  35 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.570 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:20:28 2026.
+      1.04300000 0.778156 98.663
+      Total time per frequency:  1 minute 21 seconds.
+      ABS: Gap. 1.135 GHz.
+      ABS: Time = 0.321 seconds.
+
+    Frequency:  1.135 GHz
+      Waveguide mode time:  0.311 seconds.
+      Fourier transform time:  36 seconds.
+      Coupling time:  21 seconds.
+      Loss time:  0.321 seconds.
+      Matrix fill time:  57 seconds.
+      Matrix solve time:  23 seconds.
+      Frequency completed Thu Oct 22 09:21:51 2026.
+      1.13500000 0.723766 -167.6
+      Total time per frequency:  1 minute 22 seconds.
+      ABS: SNR = 66.8686 dB (40 dB Goal) for S1_1 at 1.088 GHz.
+      ABS: Time = 0.334 seconds.
+
+    Post-Analysis information for em run 1:
+      Peak memory usage:  1,639 MB.
+      Total time for 8 frequencies:  11 minutes 28 seconds.
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Thu Oct 22 09:21:51 2026.

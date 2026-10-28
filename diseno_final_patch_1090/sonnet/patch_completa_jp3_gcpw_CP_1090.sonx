@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonnetProject xmlns="https://www.sonnetsoftware.com/schema/project" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="21" Type="GEO" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/project https://www.sonnetsoftware.com/schema/project/sonnet_project_file-1.0.xsd">
+  <GlobalTemperature Tnom="25.000" />
+  <Header>
+    <Created Program="adsb_generator" Version="1.0">
+      <Date>10/22/2026 09:10:23</Date>
+    </Created>
+    <Modified Program="runmacro" Version="19.54.2026">
+      <License>unlam2.1.89766</License>
+      <Date>10/22/2026 09:10:23</Date>
+      <Change Importance="MEDIUM">
+        <Date>10/22/2026 09:10:23</Date>
+      </Change>
+      <Change Importance="HIGH">
+        <Date>10/22/2026 09:10:23</Date>
+      </Change>
+    </Modified>
+  </Header>
+  <Units>
+    <Angle>DEG</Angle>
+    <Capacitance>PF</Capacitance>
+    <Conductance>/OH</Conductance>
+    <Conductivity>SM</Conductivity>
+    <Frequency>GHZ</Frequency>
+    <Inductance>NH</Inductance>
+    <Length>MM</Length>
+    <Roughness>UM</Roughness>
+    <Resistance>OH</Resistance>
+    <Resistivity>OHCM</Resistivity>
+    <SheetRes>OHSQ</SheetRes>
+  </Units>
+  <Control>
+    <SweepType>VARSWP</SweepType>
+    <Currents On="TRUE" />
+    <Precision>DOUBLE</Precision>
+    <SpeedControl>MAX_ACCURACY</SpeedControl>
+    <ABSCacheLevel>MULTI_SWEEP</ABSCacheLevel>
+  </Control>
+  <Geometry YDirection="Negative">
+    <Dielectric MacroID="Air" Name="Air" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+      <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE" />
+      <Conductivity Value="0.0" />
+      <Eps Value="1.0" />
+      <Tan Value="0.0" />
+      <MuRel Value="1.0" />
+      <MagLossTan Value="0.0" />
+    </Dielectric>
+    <Dielectric MacroID="jlc2116" Name="JLC2116" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+      <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE" />
+      <Conductivity Value="0.0" />
+      <Eps Value="4.16" />
+      <Tan Value="0.02" />
+      <MuRel Value="1.0" />
+      <MagLossTan Value="0.0" />
+    </Dielectric>
+    <Dielectric MacroID="jlccore" Name="JLCCore" LossType="CONDUCTIVITY" Anisotropic="FALSE">
+      <FrequencyModel ModelType="None" RefFreq="0.0" ValidRef="FALSE" />
+      <Conductivity Value="0.0" />
+      <Eps Value="4.60" />
+      <Tan Value="0.02" />
+      <MuRel Value="1.0" />
+      <MagLossTan Value="0.0" />
+    </Dielectric>
+    <Conductor MacroID="copper" Name="Copper" Conductivity="5.8e7" LossType="CONDUCTIVITY" />
+    <Conductor MacroID="PerfectConductor" Name="Perfect Conductor" Conductivity="INF" LossType="CONDUCTIVITY" />
+    <Box>
+      <BoxCover MacroID="top_cover" Type="TOP" MaterialType="FREE_SPACE" Roughness="0.0" Thickness="0.0" />
+      <BoxCover MacroID="bot_cover" Type="BOTTOM" MaterialType="FREE_SPACE" Roughness="0.0" Thickness="0.0" />
+      <Size X="400" Y="400" Z="81.6" />
+      <NumCells X="1600" Y="1600" />
+      <LocalOrigin X="0" Y="400" />
+      <Symmetry On="FALSE" />
+    </Box>
+    <Level MacroID="lev0" MaterialName="Air" Number="0">
+      <DielectricMaterialModel Thickness="40.0" />
+      <Objects>
+        <PlanarTechLayer MacroID="cu0" Name="F_Cu_Patch" MaterialName="Copper">
+          <ColorPattern Color="#b76e28" Pattern="updiag" />
+          <PlanarMaterialModel ModelType="THICK_METAL" NumSheets="2.0" SheetsMode="AUTO_PLACEMENT" ThickDirection="UP" Thickness="0.035" />
+          <RoughnessModel RoughnessOn="FALSE" />
+          <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR" />
+          <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y" />
+          <GLGMeshing GLG="FALSE" />
+          <Objects>
+            <PlanarPolygon MacroID="p0" Id="1">
+              <Points>(167.75,167.75) (225.75,167.75) (232.25,174.25) (232.25,232.25) (174.25,232.25)</Points>
+              <Points>(167.75,225.75)</Points>
+            </PlanarPolygon>
+          </Objects>
+        </PlanarTechLayer>
+      </Objects>
+    </Level>
+    <Level MacroID="lev1" MaterialName="JLC2116" Number="1">
+      <DielectricMaterialModel Thickness="0.1164" />
+    </Level>
+    <Level MacroID="lev2" MaterialName="JLCCore" Number="2">
+      <DielectricMaterialModel Thickness="1.265" />
+      <Objects>
+        <PlanarTechLayer MacroID="cu1" Name="In2_Cu_GND" MaterialName="Copper">
+          <ColorPattern Color="#338899" Pattern="updiag" />
+          <PlanarMaterialModel ModelType="THICK_METAL" NumSheets="2.0" SheetsMode="AUTO_PLACEMENT" ThickDirection="DOWN" Thickness="0.0152" />
+          <RoughnessModel RoughnessOn="FALSE" />
+          <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR" />
+          <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y" />
+          <GLGMeshing GLG="FALSE" />
+          <Objects>
+            <PlanarPolygon MacroID="gnd_top" Id="2">
+              <Points>(160.50,151.50) (239.50,151.50) (239.50,160.50) (248.50,160.50)</Points>
+              <Points>(248.50,221.25) (151.50,221.25) (151.50,160.50) (160.50,160.50)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="gnd_bot" Id="3">
+              <Points>(151.50,222.75) (248.50,222.75) (248.50,239.50) (239.50,239.50)</Points>
+              <Points>(239.50,248.50) (160.50,248.50) (160.50,239.50) (151.50,239.50)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="gnd_mid_left" Id="4">
+              <Points>(151.50,221.25) (199.50,221.25) (199.50,222.75) (151.50,222.75)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="gnd_mid_right" Id="5">
+              <Points>(200.50,221.25) (248.50,221.25) (248.50,222.75) (200.50,222.75)</Points>
+            </PlanarPolygon>
+          </Objects>
+        </PlanarTechLayer>
+      </Objects>
+    </Level>
+    <Level MacroID="lev3" MaterialName="JLC2116" Number="3">
+      <DielectricMaterialModel Thickness="0.1164" />
+      <Objects>
+        <PlanarTechLayer MacroID="cu2" Name="B_Cu_GCPW" MaterialName="Copper">
+          <ColorPattern Color="#cc3333" Pattern="updiag" />
+          <PlanarMaterialModel ModelType="THICK_METAL" NumSheets="2.0" SheetsMode="AUTO_PLACEMENT" ThickDirection="DOWN" Thickness="0.035" />
+          <RoughnessModel RoughnessOn="FALSE" />
+          <PlanarMeshing EnableMesh="TRUE" FillType="RECTANGULAR" />
+          <SubsectionMeshing XMin="1" XMax="100" YMin="1" YMax="100" EdgeMeshed="TRUE" DiagonalEdges="FALSE" AnisotropicType="X_AND_Y" />
+          <GLGMeshing GLG="FALSE" />
+          <Objects>
+            <PlanarPolygon MacroID="gcpw_line" Id="6">
+              <Points>(194.50,221.75) (200.25,221.75) (200.25,222.25) (194.50,222.25)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="bcu_gnd_1" Id="7">
+              <Points>(193.50,220.25) (202.00,220.25) (202.00,221.25) (199.50,221.25)</Points>
+              <Points>(199.50,221.50) (193.50,221.50)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="bcu_gnd_2" Id="8">
+              <Points>(193.50,222.50) (199.50,222.50) (199.50,222.75) (202.00,222.75)</Points>
+              <Points>(202.00,223.75) (193.50,223.75)</Points>
+            </PlanarPolygon>
+            <PlanarPolygon MacroID="bcu_gnd_3" Id="9">
+              <Points>(200.50,221.25) (202.00,221.25) (202.00,222.75) (200.50,222.75)</Points>
+            </PlanarPolygon>
+          </Objects>
+        </PlanarTechLayer>
+      </Objects>
+    </Level>
+    <Level MacroID="lev4" MaterialName="Air" Number="4">
+      <DielectricMaterialModel Thickness="40.0" />
+    </Level>
+    <ViaTechLayer MacroID="feed_via_layer" Name="Coax_Feed_Via" MaterialName="Copper">
+      <ColorPattern Color="#bb44dd" Pattern="updiag" />
+      <ViaMaterialModel ModelType="VOLUME" Solid="TRUE" />
+      <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE" />
+      <GLGMeshing GLG="FALSE" />
+      <ViaLevels FromLevel="0" FromType="LEVEL" ToLevel="3" ToType="LEVEL" />
+      <Objects>
+        <ViaPolygon MacroID="v_feed" Id="10">
+          <Points>(199.75,221.75) (200.25,221.75) (200.25,222.25) (199.75,222.25)</Points>
+        </ViaPolygon>
+      </Objects>
+    </ViaTechLayer>
+    <ViaTechLayer MacroID="gnd_stitch_layer" Name="GND_Stitching_Vias" MaterialName="Copper">
+      <ColorPattern Color="#22aa44" Pattern="updiag" />
+      <ViaMaterialModel ModelType="VOLUME" Solid="TRUE" />
+      <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE" />
+      <GLGMeshing GLG="FALSE" />
+      <ViaLevels FromLevel="2" FromType="LEVEL" ToLevel="3" ToType="LEVEL" />
+      <Objects>
+        <ViaPolygon MacroID="vg1" Id="11"><Points>(199.75,220.75) (200.25,220.75) (200.25,221.00) (199.75,221.00)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vg2" Id="12"><Points>(199.75,223.00) (200.25,223.00) (200.25,223.25) (199.75,223.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vg3" Id="13"><Points>(200.75,221.75) (201.00,221.75) (201.00,222.25) (200.75,222.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vg4" Id="14"><Points>(200.50,221.00) (200.75,221.00) (200.75,221.25) (200.50,221.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vg5" Id="15"><Points>(200.50,222.75) (200.75,222.75) (200.75,223.00) (200.50,223.00)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs1" Id="16"><Points>(198.25,221.00) (198.50,221.00) (198.50,221.25) (198.25,221.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs2" Id="17"><Points>(196.75,221.00) (197.00,221.00) (197.00,221.25) (196.75,221.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs3" Id="18"><Points>(195.25,221.00) (195.50,221.00) (195.50,221.25) (195.25,221.25)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs4" Id="19"><Points>(198.25,222.75) (198.50,222.75) (198.50,223.00) (198.25,223.00)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs5" Id="20"><Points>(196.75,222.75) (197.00,222.75) (197.00,223.00) (196.75,223.00)</Points></ViaPolygon>
+        <ViaPolygon MacroID="vs6" Id="21"><Points>(195.25,222.75) (195.50,222.75) (195.50,223.00) (195.25,223.00)</Points></ViaPolygon>
+      </Objects>
+    </ViaTechLayer>
+    <ViaTechLayer MacroID="jp3_port_layer" Name="Port_JP3_50ohm" MaterialName="Copper">
+      <ColorPattern Color="#ff8800" Pattern="updiag" />
+      <ViaMaterialModel ModelType="VOLUME" Solid="TRUE" />
+      <ViaMeshing AutoHeight="FALSE" EnableMesh="TRUE" FillType="RING" HasPads="FALSE" />
+      <GLGMeshing GLG="FALSE" />
+      <ViaLevels FromLevel="2" FromType="LEVEL" ToLevel="3" ToType="LEVEL" />
+      <Objects>
+        <ViaPolygon MacroID="v_jp3" Id="22">
+          <Points>(194.50,221.75) (194.75,221.75) (194.75,222.25) (194.50,222.25)</Points>
+          <Objects>
+            <Port MacroID="port_jp3" Number="1" Vertex="0">
+              <Type Type="VIA" />
+              <Impedance Resistance="50" Reactance="0" Inductance="0" Capacitance="0" />
+              <Center>(194.625,221.75)</Center>
+            </Port>
+          </Objects>
+        </ViaPolygon>
+      </Objects>
+    </ViaTechLayer>
+  </Geometry>
+  <Sweeps SweepVariables="FALSE">
+    <Set MacroID="sweep" On="TRUE">
+      <Frequencies>
+        <Sweep MacroID="f1090" Type="STEP" On="TRUE" Adaptive="FALSE" Start="1.09" />
+        <Sweep MacroID="band" Type="ABS_ENTRY" On="TRUE" Adaptive="TRUE" Start="1.00" Stop="1.18" Target="181" />
+      </Frequencies>
+    </Set>
+  </Sweeps>
+  <OutputFiles Folder=".">
+    <Files>
+      <File MacroID="s11" Type="TOUCH" Name="$BASENAME.s1p" UseInterpolatedData="TRUE" IncludeComments="TRUE" Precision="15" Parameter="S" Format="RI">
+        <Terminations Type="STD" Single="TRUE">
+          <Port Rp="50" Xp="0" Lp="0" Cp="0" />
+        </Terminations>
+      </File>
+    </Files>
+  </OutputFiles>
+</SonnetProject>

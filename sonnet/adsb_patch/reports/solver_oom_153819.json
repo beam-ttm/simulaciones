@@ -1,0 +1,19 @@
+{
+  "run": "2026-10-19 15:38:19",
+  "kernel_kill": "2026-10-19 15:38:25",
+  "cause": "Linux out-of-memory killer",
+  "killed_process_pid": 41731,
+  "anon_rss_kB": 9535104,
+  "original_cells": [
+    32000,
+    32000
+  ],
+  "diagnostic_project": "sonnet/patch_prueba.sonx",
+  "diagnostic_cells": [
+    16000,
+    16000
+  ],
+  "diagnostic_cell_mm": 0.1,
+  "diagnostic_simulated": false,
+  "note": "Coarse trial only; mesh convergence and resource requirements remain unverified."
+}

@@ -1,0 +1,64 @@
+Preprocessing project
+Reading project.
+Locking project.
+Initializing files.
+Processing main project file 'patch_2caras_h16_rect_b1228.8_c50um.sonx'.
+Initializing for jxy data.
+Packing project to send to server process, filename = '/tmp/pemc_preubQVyt.zon'.
+
+JOBN:  16
+JOBI:  1792631096
+Sending project to server
+
+Queued
+QUUP:  0
+Unpacking at server
+Starting to run
+Running
+ST0:  Project: patch_2caras_h16_rect_b1228.8_c50um.sonx
+MRUN:  Run 1:  Wed Oct 21 22:04:53 2026.  unlam2.1.89766.
+MRUN:          Em version 19.54.2026 (64-bit Windows) on COMPETENCIA-ING-02 remote.
+MRUN:  
+  Project:  \home\alan\Escritorio\CubeSat\sonnet\patch_2caras_h16_rect_b1228.8_c50um.sonx.
+MDTM:      Computer processor:  13th Gen Intel(R) Core(TM) i7-13700F
+STL2:  Checking project for pre-existing data.
+SWP:  4
+STL2:  Initializing simulation.
+COM:  Frequencies:  0 Complete
+PCT:  0
+MPRM:  
+    Begin electromagnetic simulation using frequency sweep:
+      Single Frequency = 1.09 GHz
+MDTM:  
+    Frequency:  1.09 GHz
+      Subsectioning at 1.09 GHz with Eeff of 2.7.
+STL2:  Subsectioning circuit.
+QUUP:  0
+QUUP:  0
+MBTM:        Subsectioning time:  14 seconds.
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+QUUP:  0
+MBTM:        ABS setup time:  1 minute 6 seconds.
+Analysis finished on the server
+Job completed
+Post-processing project.
+CLFW:  0
+STL2:    :  Writing Project Data.
+Writing files.
+CLFW:  2
+Completing files.
+Processing main project file 'patch_2caras_h16_rect_b1228.8_c50um.sonx'.
+Completing JXY files.
+Writing optional file(s).
+STL2:    :  Writing Project Data.
+STL2:  Analysis Finished
+
+Post-processing complete.
+CLFW:  3
+STL2:  Analysis Finished
+Emclient completed successfully

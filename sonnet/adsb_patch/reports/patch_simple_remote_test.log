@@ -1,0 +1,47 @@
+Reading patch_simple_remote_test.smc...
+
+Lexing...
+Parsing...
+Visiting...
+Starting to process new macro
+
+
+> Line 1: add project id=simple template="../models/patch_simple.sonx"
+
+
+New project simple
+
+	template: "../models/patch_simple.sonx"
+
+
+> Line 2: add output_file id=s11 path="$BASENAME.s1p" param=S file_format=TOUCH format=RI
+
+
+Adding output file "$BASENAME.s1p" to project simple
+
+
+> Line 3: save path="../models/patch_simple_ready.sonx"
+
+
+Saving project simple as "../models/patch_simple_ready.sonx"
+
+
+> Line 4: verify_project
+
+
+Verifying project simple
+
+Verify passed
+
+{"Ports":1}
+
+
+> Line 6: analyze server=10.16.100.159:56150
+
+
+Analyzing project simple
+
+on server 10.16.100.159:56150
+
+Processing macro patch_simple_remote_test.smc completed.
+

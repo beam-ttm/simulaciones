@@ -1,0 +1,1357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graph_file xmlns="https://www.sonnetsoftware.com/schema/graph" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="15" Type="GRAPH" xsi:schemaLocation="https://www.sonnetsoftware.com/schema/graph https://www.sonnetsoftware.com/schema/graph/graph_file-1.0.xsd">
+  <Window ClassName="SPatvuPolarGraphWin" DocID="595342848" ShellIndex="0" TabIndex="2" ActiveView="true">
+    <geometry>01d9d0cb0003000000000000000000000000077b0000039d0000000000000000ffffffffffffffff0000000000000000078000000000000000000000077b0000039d</geometry>
+    <state>000000ff00000000fd0000000100000000000000dc0000034efc0200000003fb0000000c004c006500670065006e00640100000035000001260000005600fffffffb00000018005400650072006d0069006e006100740069006f006e00730100000161000001260000005600fffffffb0000000e00530065007300730069006f006e010000028d000000f60000005600ffffff0000069a0000034e00000004000000040000000800000008fc0000000100000002000000040000001600460069006c00650054006f006f006c0042006100720100000000ffffffff00000000000000000000001600560069006500770054006f006f006c00420061007201000000bfffffffff00000000000000000000001a004c00610075006e006300680054006f006f006c00420061007201000001d3ffffffff000000000000000000000018004700720061007000680054006f006f006c00420061007201000002d4ffffffff0000000000000000</state>
+    <Guts>
+      <graph_info version="15" tab_label="patch_campo_lejano_1090_2D">
+        <window_specific>
+          <normalization Type="0" NormForm="0" NormValue="0" AbsoluteForm="0" />
+        </window_specific>
+        <terminations>R 50.00000</terminations>
+        <source_files>
+          <source id="0">
+            <file>placeholder.sonx</file>
+            <Data Number="1">
+              <PVData Index="0">
+                <PARAM />
+                <Setup>CTLPG
+THETA 0 180 5
+PHI 0 355 5
+GHZ
+FREQ 1.09
+PORT 1 MAG=1 PHASE=0 R=50 X=0 L=0 C=0
+ENDCTL</Setup>
+              </PVData>
+            </Data>
+          </source>
+        </source_files>
+        <plot type="SPatvuPolarGraphWin" plotover="4" graph_title="patch_campo_lejano">
+          <graph_properties show_grid="1" show_symbols="1" grid_weight="1" axis_weight="1" />
+          <graph_units>
+            <length unit="mm" />
+            <resistance unit="Ohms" />
+            <inductance unit="nH" />
+            <capacitance unit="pF" />
+            <frequency unit="GHz" />
+            <conductivity unit="S/m" />
+            <resistivity unit="Ohm-cm" />
+            <sheet_resistance unit="Ohms/sq" />
+          </graph_units>
+          <axes>
+            <polar_axis min="-40" max="-5" autoscale="1" interval="5" tick_labels="1" />
+          </axes>
+          <curves>
+            <curve id="1" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="0" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="2" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="5" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="3" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="10" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="4" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="15" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="5" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="20" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="6" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="25" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="7" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="30" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="8" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="35" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="9" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="40" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="10" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="45" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="11" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="50" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="12" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="55" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="13" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="60" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="14" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="65" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="15" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="70" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="16" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="75" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="17" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="80" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="18" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="85" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="19" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="90" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="20" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="95" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="21" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="100" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="22" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="105" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="23" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="110" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="24" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="115" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="25" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="120" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="26" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="125" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="27" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="130" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="28" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="135" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="29" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="140" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="30" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="145" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="31" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="150" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="32" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="155" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="33" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="160" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="34" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="165" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="35" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="170" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="36" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="175" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="37" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="180" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="38" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="185" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="39" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="190" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="40" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="195" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="41" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="200" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="42" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="205" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="43" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="210" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="44" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="215" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="45" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="220" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="46" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="225" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="47" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="230" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="48" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="235" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="49" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="240" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="50" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="245" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="51" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="250" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="52" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="255" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="53" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="260" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="54" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="265" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="55" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="270" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="56" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="275" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="57" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="280" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="58" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="285" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="59" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="290" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="60" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="295" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="61" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="300" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="62" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="305" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="63" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="310" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="64" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="315" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="65" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="320" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="66" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="325" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="67" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="330" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="68" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="335" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="69" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="340" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="70" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="345" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="71" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="350" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+            <curve id="72" measurement_name="E-Total" measurement_id="PVETTP" plotover="4">
+              <Data_Source name="Data Source">
+                <File name="File" value="0">
+                  <Data value0="Freq" value1="1.09e+09" />
+                </File>
+              </Data_Source>
+              <Plot_Select name="Plot Select">
+                <Frequency name="Frequency" value="1.09e+09" />
+                <Phi name="Phi" value="355" />
+              </Plot_Select>
+              <calculate_button name="" />
+              <Style name="Style">
+                <Color name="Color" value="#d50000" />
+                <Symbol name="Symbol" value="0" />
+                <Line_Style name="Line Style" value="1" />
+                <Line_Width name="Line Width" value="1" />
+              </Style>
+            </curve>
+          </curves>
+          <marker_properties>
+            <data_marker_properties color="#004c97" weight="12" symbol="2" display_annotation="1" />
+            <curve_marker_properties color="#004c97" show_parameters="0" hide_label="0" />
+            <note_marker_properties color="#004c97" />
+            <delta_marker_properties color="#004c97" />
+            <line_marker_properties color="#004c97" weight="2" style="2" display_annotation="1" />
+            <line_segment_marker_properties color="#004c97" weight="2" style="2" symbol="0" symbol_size="12" />
+            <general_properties text_size="10" label_precision="4" />
+          </marker_properties>
+          <markers />
+          <zoom_info valid="0" centerx="0" centery="0" scale="1" />
+        </plot>
+      </graph_info>
+    </Guts>
+  </Window>
+</graph_file>
